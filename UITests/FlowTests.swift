@@ -6,7 +6,7 @@ import XCTest
 
 final class FlowTests: XCTestCase {
     @MainActor func testCompleteRestoreAndAssistance() throws {
-        let app = XCUIApplication()
+        let app = localizedApp("ru")
         app.launchEnvironment["DV_TEST_STORE"] = NSTemporaryDirectory() + "dv-ui-\(UUID().uuidString).json"
         app.launch()
         app.buttons["Начать подход"].tap()
@@ -46,7 +46,7 @@ final class FlowTests: XCTestCase {
     }
     #if os(macOS)
         @MainActor func testMacLaunchScreenshot() throws {
-            let app = XCUIApplication()
+            let app = localizedApp("ru")
             app.launchEnvironment["DV_TEST_STORE"] = NSTemporaryDirectory() + "dv-mac-capture-\(UUID().uuidString).json"
             app.launch()
             XCTAssertTrue(app.buttons["Начать подход"].exists)
@@ -55,7 +55,7 @@ final class FlowTests: XCTestCase {
     #endif
     #if os(iOS)
         @MainActor func testReferenceSearchByDisplayedForm() {
-            let app = XCUIApplication()
+            let app = localizedApp("ru")
             app.launchEnvironment["DV_TEST_STORE"] = NSTemporaryDirectory() + "dv-search-\(UUID().uuidString).json"
             app.launch()
             selectTab("Таблица", app: app)
@@ -68,7 +68,7 @@ final class FlowTests: XCTestCase {
         }
 
         @MainActor func testDraftSurvivesCrossGroupResume() {
-            let app = XCUIApplication()
+            let app = localizedApp("ru")
             app.launchEnvironment["DV_TEST_STORE"] = NSTemporaryDirectory() + "dv-pause-\(UUID().uuidString).json"
             app.launch()
             app.buttons["Начать подход"].tap()
@@ -87,7 +87,7 @@ final class FlowTests: XCTestCase {
         }
     #endif
     @MainActor func testBrowsingTableLeavesUnseenVerbsAvailable() throws {
-        let app = XCUIApplication()
+        let app = localizedApp("ru")
         let path = NSTemporaryDirectory() + "dv-browse-\(UUID().uuidString).json"
         app.launchEnvironment["DV_TEST_STORE"] = path
         app.launch()
@@ -124,7 +124,7 @@ final class FlowTests: XCTestCase {
     }
 
     @MainActor func testProgressRulesAndHistory() throws {
-        let app = XCUIApplication()
+        let app = localizedApp("ru")
         let path = NSTemporaryDirectory() + "dv-ui-synthetic-\(UUID().uuidString).json"
         let fixture = Bundle(for: Self.self).url(forResource: "synthetic-progress", withExtension: "json")!
         try Data(contentsOf: fixture).write(to: URL(fileURLWithPath: path))
@@ -154,6 +154,62 @@ final class FlowTests: XCTestCase {
         XCTAssertTrue(app.buttons["Восстановить из JSON-копии"].exists)
         capture(app, "data")
     }
+    @MainActor func testSystemLanguageEnglish() {
+        verifyLanguage("en", reference: "Reference", start: "Start session", meaning: "be")
+    }
+
+    @MainActor func testSystemLanguageGerman() {
+        verifyLanguage("de", reference: "Tabelle", start: "Runde starten", meaning: "existieren")
+    }
+
+    @MainActor func testSystemLanguageRussian() {
+        verifyLanguage("ru", reference: "Таблица", start: "Начать подход", meaning: "быть")
+    }
+
+    @MainActor func testUnsupportedLanguageFallsBackToEnglish() {
+        verifyLanguage("fr", reference: "Reference", start: "Start session", meaning: "be")
+    }
+
+    @MainActor private func localizedApp(_ language: String) -> XCUIApplication {
+        let app = XCUIApplication()
+        app.launchArguments = [
+            "-AppleLanguages", "(\(language))", "-AppleLocale",
+            language == "en" ? "en_US" : "\(language)_\(language.uppercased())",
+        ]
+        return app
+    }
+
+    @MainActor private func verifyLanguage(
+        _ language: String, reference: String, start: String, meaning: String
+    ) {
+        let app = localizedApp(language)
+        app.launchEnvironment["DV_TEST_STORE"] = NSTemporaryDirectory() + "dv-language-\(UUID().uuidString).json"
+        app.launch()
+        XCTAssertTrue(app.buttons[start].waitForExistence(timeout: 10))
+        selectTab(reference, app: app)
+        let row = app.buttons["reference-sein"]
+        XCTAssertTrue(row.waitForExistence(timeout: 5))
+        XCTAssertTrue(row.label.contains(meaning))
+        if language == "en" {
+            capture(app, "readme-reference")
+        }
+        row.tap()
+        XCTAssertTrue(app.staticTexts["Ich bin gestern zu Hause gewesen."].waitForExistence(timeout: 5))
+        let labels: (practice: String, done: String, error: String)
+        switch language {
+        case "de": labels = ("Training", "Fertig", "Aktion fehlgeschlagen")
+        case "ru": labels = ("Тренировка", "Готово", "Не удалось выполнить действие")
+        default: labels = ("Practice", "Done", "Action failed")
+        }
+        app.buttons[labels.done].tap()
+        selectTab(labels.practice, app: app)
+        app.buttons[start].tap()
+        reveal(app.buttons["check"], app: app)
+        app.buttons["check"].tap()
+        XCTAssertTrue(app.staticTexts[labels.error].waitForExistence(timeout: 5))
+        app.terminate()
+    }
+
     @MainActor private func selectTab(_ title: String, app: XCUIApplication) {
         #if os(macOS)
             app.radioButtons[title].tap()

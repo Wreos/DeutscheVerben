@@ -26,37 +26,49 @@ struct LearningProgressView: View {
     }
     var body: some View {
         List {
-            Section("Шкала изучения") {
+            Section(L10n.text("Learning progress")) {
                 let points = model.verbs.reduce(0.0) { $0 + (schedules[$1.id]?.fraction ?? 0) }
-                ProgressView(value: points, total: 60).accessibilityLabel("Прогресс изучения глаголов")
-                    .accessibilityValue("\(Int(points / 60 * 100)) процентов этапов практики")
-                Text("\(Int(points / 60 * 100))% · \(schedules.values.filter { $0.stage == 3 }.count) из 60 закреплены")
-                    .font(.headline)
-                Button("Начать повторение по расписанию", systemImage: "arrow.clockwise") { onStart() }
+                ProgressView(value: points, total: 60).accessibilityLabel(L10n.text("Verb learning progress"))
+                    .accessibilityValue(
+                        L10n.format("%@ percent of practice stages", String(describing: Int(points / 60 * 100))))
                 Text(
-                    "Пора повторить: \(schedules.values.filter { $0.isDue(on: today) }.count) · Близко к закреплению: \(schedules.values.filter { $0.stage == 2 }.count)"
+                    L10n.format(
+                        "%@%% · %@ of 60 consolidated", String(describing: Int(points / 60 * 100)),
+                        String(describing: schedules.values.filter { $0.stage == 3 }.count))
+                )
+                .font(.headline)
+                Button(L10n.text("Start scheduled review"), systemImage: "arrow.clockwise") { onStart() }
+                Text(
+                    L10n.format(
+                        "Due: %@ · Close to consolidation: %@",
+                        String(describing: schedules.values.filter { $0.isDue(on: today) }.count),
+                        String(describing: schedules.values.filter { $0.stage == 2 }.count))
                 ).font(.callout)
             }
             Section {
-                NavigationLink("История исходных ответов") {
-                    HistoryView(model: model).navigationTitle("История ответов")
+                NavigationLink(L10n.text("Original answer history")) {
+                    HistoryView(model: model).navigationTitle(L10n.text("Answer history"))
                 }
-                DisclosureGroup("Как читать шкалу") {
+                DisclosureGroup(L10n.text("How to read the scale")) {
                     Text(
-                        "0% — нет самостоятельной успешной серии. 25% — один успех, 50% — два. 75% — три, близко к закреплению. 100% — минимум четыре успеха подряд, последний без опечаток, с фактическим перерывом не меньше 14 дней перед последней проверкой."
+                        L10n.text(
+                            "0% means no current independent success streak. 25% means one success, 50% means two. 75% means three, close to consolidation. 100% requires at least four consecutive successes, an exact final answer and a gap of at least 14 days before the final review."
+                        )
                     )
                     Text(
-                        "Ответ с подсказкой не повышает прогресс. Ошибка возвращает глагол к повторению. Досрочный успех не увеличивает интервал."
+                        L10n.text(
+                            "Assisted answers do not increase progress. An error returns the verb to review. An early success does not increase the interval."
+                        )
                     )
                 }
-                Picker("Показать", selection: $filter) {
-                    Text("Все глаголы").tag("all")
-                    Text("Нужно повторить").tag("due")
-                    Text("Близко к закреплению").tag("near")
-                    Text("Закреплены").tag("stable")
+                Picker(L10n.text("Show"), selection: $filter) {
+                    Text(L10n.text("All verbs")).tag("all")
+                    Text(L10n.text("Needs review")).tag("due")
+                    Text(L10n.text("Close to consolidation")).tag("near")
+                    Text(L10n.text("Consolidated verbs")).tag("stable")
                 }
             }
-            Section("Глаголы · \(rows.count)") {
+            Section(L10n.format("Verbs · %@", String(describing: rows.count))) {
                 ForEach(rows) { verb in
                     let s = schedules[verb.id] ?? ReviewSchedule()
                     VStack(alignment: .leading, spacing: 8) {
@@ -65,21 +77,31 @@ struct LearningProgressView: View {
                             Spacer()
                             Text(s.stageTitle).font(.caption).foregroundStyle(.secondary)
                         }
-                        Text(verb.meaning).font(.callout)
-                        ProgressView(value: s.fraction).accessibilityLabel("Этап изучения \(verb.id)")
-                            .accessibilityValue(s.stageTitle)
+                        Text(verb.localizedMeaning).font(.callout)
+                        ProgressView(value: s.fraction).accessibilityLabel(
+                            L10n.format("Learning stage for %@", String(describing: verb.id))
+                        )
+                        .accessibilityValue(s.stageTitle)
                         Text(
                             s.due.map {
-                                "\($0 <= today ? "Пора повторить" : "Следующее повторение"): \($0) · интервал \(s.interval) дн."
-                            } ?? "Нужно вспомнить без подсказки"
+                                L10n.format(
+                                    "%@: %@ · interval %@ days",
+                                    String(
+                                        describing: $0 <= today ? L10n.text("Due for review") : L10n.text("Next review")
+                                    ), String(describing: $0), String(describing: s.interval))
+                            } ?? L10n.text("Recall independently first")
                         ).font(.caption).foregroundStyle(.secondary)
                         if let p = model.state.progress[verb.id] {
-                            Text("Самостоятельных попыток: \(p.attempts) · С опорой: \(p.assisted)").font(.caption)
+                            Text(
+                                L10n.format(
+                                    "Independent attempts: %@ · Assisted: %@", String(describing: p.attempts),
+                                    String(describing: p.assisted))
+                            ).font(.caption)
                                 .foregroundStyle(.secondary)
                         }
                     }.padding(.vertical, 8)
                 }
-                if rows.isEmpty { Text("В этой группе пока нет глаголов.").foregroundStyle(.secondary) }
+                if rows.isEmpty { Text(L10n.text("No verbs in this group yet.")).foregroundStyle(.secondary) }
             }
         }
     }

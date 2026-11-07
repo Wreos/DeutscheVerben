@@ -1,22 +1,36 @@
 import SwiftUI
+import VerbTrainerCore
 
 struct RulesView: View {
     var body: some View {
         Text(
-            "Вспомни Präteritum для ich / er / sie / es без местоимения, Partizip II и haben или sein для указанного контекста."
+            L10n.text(
+                "Recall Präteritum for ich / er / sie / es without the pronoun, Partizip II and haben or sein for the given context."
+            )
         )
         Text(
-            "Регистр, лишние пробелы и конечные . ! ? не влияют на проверку. Можно писать ae / oe / ue вместо ä / ö / ü и ss вместо ß."
+            L10n.text(
+                "Case, extra spaces and trailing . ! ? do not affect grading. You can use ae / oe / ue for ä / ö / ü and ss for ß."
+            )
         )
         Text(
-            "Одна ошибка в букве — 9/10 за форму, больше одной — 0/10. Общий балл — среднее двух форм и выбора haben / sein."
-        )
-        Text("«Не знаю» проверяет то, что уже введено. «Изучить формы» показывает ответ и отмечает попытку с опорой.")
-        Text(
-            "После показа форм повторные ответы в тот же день идут с опорой. Показ форм в таблице или открытие старого ответа отмечает оставшийся подход с опорой."
+            L10n.text(
+                "One letter error earns 9/10 for a form. More than one earns 0/10. The overall score averages both forms and the haben / sein choice."
+            )
         )
         Text(
-            "Повторяй по расписанию в «Прогрессе». После успехов интервалы растут, после ошибки глагол возвращается на завтра. Первыми идут ошибки и глаголы, которые пора повторить."
+            L10n.text(
+                "I don't know checks what you have entered. Study forms reveals the answer and marks the attempt as assisted."
+            ))
+        Text(
+            L10n.text(
+                "After forms are revealed, further answers on the same day are assisted. Viewing forms in the table or opening an old answer marks the rest of the session as assisted."
+            )
+        )
+        Text(
+            L10n.text(
+                "Follow the review schedule in Progress. Successes increase intervals. After an error, the verb returns tomorrow. Mistakes and due verbs come first."
+            )
         )
     }
 }

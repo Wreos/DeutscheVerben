@@ -31,7 +31,9 @@ final class TrainerModel {
         } catch {
             locked = true
             self.error =
-                "Не удалось прочитать данные. Исходный файл сохранён без изменений: \(url.path). \(error.localizedDescription)"
+                L10n.format(
+                    "Could not read data. The original file is preserved at %@. %@", String(describing: url.path),
+                    String(describing: error.localizedDescription))
         }
     }
     var selectedLevel: String {
@@ -59,7 +61,9 @@ final class TrainerModel {
         guard !locked else { return }
         do { try store.save(state) } catch {
             self.error =
-                "Не удалось сохранить: \(error.localizedDescription). Экспортируйте результаты перед закрытием."
+                L10n.format(
+                    "Could not save: %@. Export your results before closing.",
+                    String(describing: error.localizedDescription))
         }
     }
     func start(filter: String = "all", withHelp: Bool = false) {
@@ -151,7 +155,7 @@ final class TrainerModel {
         defer { if access { url.stopAccessingSecurityScopedResource() } }
         do {
             let size = try url.resourceValues(forKeys: [.fileSizeKey]).fileSize ?? 0
-            guard size <= 20_000_000 else { throw TrainerError.invalid("Файл больше 20 МБ") }
+            guard size <= 20_000_000 else { throw TrainerError.invalid(L10n.text("File exceeds 20 MB")) }
             let data = try Data(contentsOf: url)
             let incoming = try StateCodec.decode(data, verbs: verbs)
             let merged = replacing ? incoming : try StateCodec.merged(state, importing: incoming, verbs: verbs)
@@ -161,8 +165,10 @@ final class TrainerModel {
             reviewSchedules = SpacedRepetition.schedules(state.history)
             locked = false
             notice =
-                (replacing ? "Копия восстановлена." : "Импорт завершён. История объединена без удаления ответов.")
-                + "\(backup == nil ? "" : " Резервная копия сохранена рядом с progress.json.")"
-        } catch { self.error = "Импорт остановлен: \(error.localizedDescription)" }
+                (replacing
+                    ? L10n.text("Backup restored.")
+                    : L10n.text("Import complete. History merged while preserving existing answers."))
+                + "\(backup == nil ? "" : L10n.text(" A backup was saved alongside progress.json."))"
+        } catch { self.error = L10n.format("Import stopped: %@", String(describing: error.localizedDescription)) }
     }
 }

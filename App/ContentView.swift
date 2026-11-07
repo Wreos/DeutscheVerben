@@ -16,10 +16,10 @@ struct ContentView: View {
 
     var body: some View {
         TabView(selection: $tab) {
-            NavigationStack { TrainingView(model: model).navigationTitle("Тренировка") }
-                .tabItem { Label("Тренировка", systemImage: "rectangle.and.pencil.and.ellipsis") }.tag(0)
-            NavigationStack { ReferenceView(model: model).navigationTitle("Таблица") }
-                .tabItem { Label("Таблица", systemImage: "book") }.tag(1)
+            NavigationStack { TrainingView(model: model).navigationTitle(L10n.text("Practice")) }
+                .tabItem { Label(L10n.text("Practice"), systemImage: "rectangle.and.pencil.and.ellipsis") }.tag(0)
+            NavigationStack { ReferenceView(model: model).navigationTitle(L10n.text("Reference")) }
+                .tabItem { Label(L10n.text("Reference"), systemImage: "book") }.tag(1)
             NavigationStack {
                 LearningProgressView(
                     model: model,
@@ -27,32 +27,36 @@ struct ContentView: View {
                         model.start()
                         tab = 0
                     }
-                ).navigationTitle("Прогресс")
+                ).navigationTitle(L10n.text("Progress"))
             }
-            .tabItem { Label("Прогресс", systemImage: "chart.bar") }.tag(2)
+            .tabItem { Label(L10n.text("Progress"), systemImage: "chart.bar") }.tag(2)
             NavigationStack {
                 Form {
-                    Section("Перенос прогресса") {
+                    Section(L10n.text("Transfer progress")) {
                         Text(
-                            "Прогресс хранится на этом устройстве. Для переноса между iPhone и Mac экспортируй JSON и импортируй его на другом устройстве."
+                            L10n.text(
+                                "Progress is stored on this device. To transfer it between iPhone and Mac, export JSON and import it on the other device."
+                            )
                         )
                         Button(
-                            model.locked ? "Экспортировать исходный файл" : "Экспортировать JSON",
+                            model.locked ? L10n.text("Export original file") : L10n.text("Export JSON"),
                             systemImage: "square.and.arrow.up"
                         ) { export() }
-                        Button("Импортировать JSON", systemImage: "square.and.arrow.down") {
+                        Button(L10n.text("Import JSON"), systemImage: "square.and.arrow.down") {
                             replacing = false
                             confirmImport = true
                         }.disabled(model.locked)
-                        Button("Восстановить из JSON-копии", systemImage: "arrow.uturn.backward") {
+                        Button(L10n.text("Restore from JSON backup"), systemImage: "arrow.uturn.backward") {
                             confirmRestore = true
                         }
                         Text(
-                            "Импорт добавляет историю и отложенные подходы. Существующие ответы сохраняются. Перед импортом создаётся резервная копия."
+                            L10n.text(
+                                "Import adds history and paused sessions. Existing answers are preserved. A backup is created before importing."
+                            )
                         ).font(.footnote).foregroundStyle(.secondary)
                     }
-                }.formStyle(.grouped).navigationTitle("Данные")
-            }.tabItem { Label("Данные", systemImage: "folder") }.tag(3)
+                }.formStyle(.grouped).navigationTitle(L10n.text("Data"))
+            }.tabItem { Label(L10n.text("Data"), systemImage: "folder") }.tag(3)
         }
         .task { await model.refreshAtDayBoundaries() }
         .onChange(of: scenePhase) { if scenePhase == .active { model.refreshVisibleHelp() } }
@@ -60,36 +64,40 @@ struct ContentView: View {
             colorScheme == .dark ? Color(red: 0.45, green: 0.80, blue: 0.67) : Color(red: 0.13, green: 0.34, blue: 0.29)
         )
         .alert(
-            "Не удалось выполнить действие",
+            L10n.text("Action failed"),
             isPresented: Binding(get: { model.error != nil }, set: { if !$0 { model.error = nil } })
         ) {
-            Button("Понятно") { model.error = nil }
+            Button(L10n.text("OK")) { model.error = nil }
         } message: {
             Text(model.error ?? "")
         }
         .alert(
-            "Результат импорта",
+            L10n.text("Import result"),
             isPresented: Binding(get: { model.notice != nil }, set: { if !$0 { model.notice = nil } })
         ) {
-            Button("Готово") { model.notice = nil }
+            Button(L10n.text("Done")) { model.notice = nil }
         } message: {
             Text(model.notice ?? "")
         }
-        .confirmationDialog("Объединить историю из JSON?", isPresented: $confirmImport, titleVisibility: .visible) {
-            Button("Выбрать файл и объединить") { importing = true }
+        .confirmationDialog(
+            L10n.text("Merge history from JSON?"), isPresented: $confirmImport, titleVisibility: .visible
+        ) {
+            Button(L10n.text("Choose file and merge")) { importing = true }
         } message: {
-            Text("Текущая история будет сохранена. Конфликтующие записи не заменяются.")
+            Text(L10n.text("Your current history will be preserved. Conflicting records will stop the import."))
         }
         .confirmationDialog(
-            "Заменить текущее состояние из копии?", isPresented: $confirmRestore, titleVisibility: .visible
+            L10n.text("Replace current state from a backup?"), isPresented: $confirmRestore, titleVisibility: .visible
         ) {
-            Button("Выбрать копию для восстановления", role: .destructive) {
+            Button(L10n.text("Choose backup to restore"), role: .destructive) {
                 replacing = true
                 importing = true
             }
         } message: {
             Text(
-                "Текущий прогресс будет заменён. Перед восстановлением сохраним его резервную копию. Для добавления результатов без замены используй импорт."
+                L10n.text(
+                    "Your current progress will be replaced after creating a backup. Use Import to add results to your current history."
+                )
             )
         }
         .fileImporter(isPresented: $importing, allowedContentTypes: [.json]) { result in

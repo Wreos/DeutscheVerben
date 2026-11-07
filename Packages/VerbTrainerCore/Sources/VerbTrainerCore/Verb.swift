@@ -2,6 +2,8 @@ import Foundation
 
 public struct Verb: Codable, Equatable, Identifiable, Sendable {
     public let id, past, participle, aux, meaning, level, type, context, example: String
+    public var localizedMeaning: String { L10n.text("verb.\(id).meaning") }
+    public var localizedContext: String { L10n.text("verb.\(id).context") }
     public let pastAlternatives: [String]?
     public let participleAlternatives: [String]?
 }
@@ -9,7 +11,7 @@ public struct Verb: Codable, Equatable, Identifiable, Sendable {
 public enum Dictionary {
     public static func load() throws -> [Verb] {
         guard let url = Bundle.module.url(forResource: "verbs", withExtension: "json") else {
-            throw TrainerError.invalid("Словарь не найден")
+            throw TrainerError.invalid(L10n.text("Dictionary not found"))
         }
         return try JSONDecoder().decode([Verb].self, from: Data(contentsOf: url))
     }
@@ -17,5 +19,7 @@ public enum Dictionary {
 
 public enum TrainerError: LocalizedError {
     case invalid(String)
-    public var errorDescription: String? { if case .invalid(let message) = self { message } else { "Ошибка данных" } }
+    public var errorDescription: String? {
+        if case .invalid(let message) = self { message } else { L10n.text("Data error") }
+    }
 }

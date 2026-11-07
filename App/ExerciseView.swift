@@ -14,11 +14,15 @@ struct ExerciseView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             VStack(alignment: .leading, spacing: 8) {
-                Text("Глагол \(session.index + 1) из \(session.queue.count)").font(.subheadline).foregroundStyle(
+                Text(
+                    L10n.format(
+                        "Verb %@ of %@", String(describing: session.index + 1), String(describing: session.queue.count))
+                ).font(.subheadline).foregroundStyle(
                     .secondary)
                 ProgressView(value: Double(session.index), total: Double(session.queue.count)).accessibilityLabel(
-                    "Пройдено глаголов"
-                ).accessibilityValue("\(session.index) из \(session.queue.count)")
+                    L10n.text("Verbs completed")
+                ).accessibilityValue(
+                    L10n.format("%@ of %@", String(describing: session.index), String(describing: session.queue.count)))
             }
             VStack(alignment: .leading, spacing: 8) {
                 HStack(alignment: .firstTextBaseline) {
@@ -27,31 +31,33 @@ struct ExerciseView: View {
                     Spacer()
                     Text(verb.level).font(.caption.weight(.semibold)).foregroundStyle(.secondary)
                 }
-                Text(verb.meaning).font(.title3)
-                Text("Контекст: \(verb.context)").font(.callout).foregroundStyle(.secondary)
+                Text(verb.localizedMeaning).font(.title3)
+                Text(L10n.format("Context: %@", String(describing: verb.localizedContext))).font(.callout)
+                    .foregroundStyle(.secondary)
             }
             if assisted && session.checked == nil {
-                Label("С опорой", systemImage: "book.closed").font(.callout).foregroundStyle(.secondary)
+                Label(L10n.text("Assisted"), systemImage: "book.closed").font(.callout).foregroundStyle(.secondary)
             }
             VStack(alignment: .leading, spacing: 16) {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Präteritum").font(.headline)
-                    Text("Для ich / er / sie / es, без местоимения").font(.caption).foregroundStyle(.secondary)
-                    TextField("Твоя форма Präteritum", text: $model.draft.past)
+                    Text(L10n.text("For ich / er / sie / es, without the pronoun")).font(.caption).foregroundStyle(
+                        .secondary)
+                    TextField(L10n.text("Your Präteritum form"), text: $model.draft.past)
                         .focused($focus, equals: .past).onSubmit { focus = .participle }
                         .accessibilityIdentifier("past")
                 }
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Partizip II").font(.headline)
-                    Text("Только причастие, без haben / sein").font(.caption).foregroundStyle(.secondary)
-                    TextField("Твоя форма Partizip II", text: $model.draft.participle)
+                    Text(L10n.text("Participle only, without haben / sein")).font(.caption).foregroundStyle(.secondary)
+                    TextField(L10n.text("Your Partizip II form"), text: $model.draft.participle)
                         .focused($focus, equals: .participle).onSubmit { focus = .aux }
                         .accessibilityIdentifier("participle")
                 }
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("Вспомогательный глагол").font(.headline)
-                    Picker("Вспомогательный глагол", selection: $model.draft.aux) {
-                        Text("Выбери").tag("")
+                    Text(L10n.text("Auxiliary verb")).font(.headline)
+                    Picker(L10n.text("Auxiliary verb"), selection: $model.draft.aux) {
+                        Text(L10n.text("Choose")).tag("")
                         Text("haben").tag("haben")
                         Text("sein").tag("sein")
                     }
@@ -74,7 +80,7 @@ struct ExerciseView: View {
                     model.next()
                 } label: {
                     Label(
-                        session.index + 1 == session.queue.count ? "Посмотреть итог" : "Следующий глагол",
+                        session.index + 1 == session.queue.count ? L10n.text("View summary") : L10n.text("Next verb"),
                         systemImage: "arrow.right"
                     ).foregroundStyle(colorScheme == .dark ? Color.black : Color.white)
                 }
@@ -85,7 +91,7 @@ struct ExerciseView: View {
                     focus = nil
                     model.submit("answer")
                 } label: {
-                    Label("Проверить", systemImage: "checkmark").foregroundStyle(
+                    Label(L10n.text("Check"), systemImage: "checkmark").foregroundStyle(
                         colorScheme == .dark ? Color.black : Color.white)
                 }
                 .buttonStyle(.borderedProminent).controlSize(.large).keyboardShortcut(.return, modifiers: [.command])
@@ -95,20 +101,20 @@ struct ExerciseView: View {
                 } else {
                     HStack { helpButtons }.buttonStyle(.bordered).controlSize(.large)
                 }
-                Text("Можно писать ae / oe / ue вместо ä / ö / ü и ss вместо ß.").font(.footnote).foregroundStyle(
+                Text(L10n.text("You can use ae / oe / ue for ä / ö / ü and ss for ß.")).font(.footnote).foregroundStyle(
                     .secondary)
                 #if os(macOS)
-                    Text("Tab — следующее поле · ⌘↵ — проверить").font(.caption).foregroundStyle(.secondary)
+                    Text(L10n.text("Tab — next field · ⌘↵ — check")).font(.caption).foregroundStyle(.secondary)
                 #endif
             }
         }
     }
     @ViewBuilder private var helpButtons: some View {
-        Button("Не знаю") {
+        Button(L10n.text("I don't know")) {
             focus = nil
             model.submit("unknown")
         }.accessibilityIdentifier("unknown")
-        Button("Изучить формы", systemImage: "eye") {
+        Button(L10n.text("Study forms"), systemImage: "eye") {
             focus = nil
             model.submit("reveal")
         }.accessibilityIdentifier("reveal")

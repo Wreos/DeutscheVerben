@@ -82,7 +82,8 @@ public enum Training {
             let verb = verbs.first(where: { $0.id == s.queue[s.index] })
         else { return }
         guard kind != "answer" || s.draft.complete else {
-            throw TrainerError.invalid("Заполни две формы и выбери haben или sein. Если не помнишь — нажми «Не знаю».")
+            throw TrainerError.invalid(
+                L10n.text("Fill in both forms and choose haben or sein. If you cannot recall them, tap I don't know."))
         }
         let entry = Attempt(
             id: verb.id, answers: s.draft, result: Grading.grade(verb, s.draft),

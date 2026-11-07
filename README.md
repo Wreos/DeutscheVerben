@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/Wreos/DeutscheVerben/actions/workflows/ci.yml/badge.svg)](https://github.com/Wreos/DeutscheVerben/actions/workflows/ci.yml)
 
-An offline German verb trainer for iPhone and Mac, built with SwiftUI and a local Swift package. Instructions and translations are in Russian, with German forms and examples.
+An offline German verb trainer for iPhone and Mac, built with SwiftUI and a local Swift package. The interface, verb meanings and context notes follow the system language, with English, German and Russian support. Other languages fall back to English. German forms and examples remain in German.
 
 ## Features
 
@@ -13,21 +13,11 @@ An offline German verb trainer for iPhone and Mac, built with SwiftUI and a loca
 - JSON import, export and restore with backups.
 - Light and dark appearance, system text sizes and Mac keyboard shortcuts.
 
-## Screenshots
+## Screenshot
 
-The screenshots show the app's Russian interface. iPhone images were captured in Simulator.
+The Mac reference table in English. Captured from the running app using isolated test data.
 
-### iPhone reference table
-
-<img src="Documentation/Screenshots/iphone-reference.png" alt="iPhone reference table with German verb forms and Russian translations" width="300">
-
-### Mac practice
-
-<img src="Documentation/Screenshots/mac-practice.png" alt="Mac practice screen asking for Präteritum, Partizip II and the auxiliary verb" width="800">
-
-### Mac reference table
-
-<img src="Documentation/Screenshots/mac-reference.png" alt="Mac reference table in dark appearance, with translations and German verb forms" width="800">
+<img src="Documentation/Screenshots/mac-reference.png" alt="Mac reference table in English with German verb forms and English meanings" width="800">
 
 ## Getting started
 

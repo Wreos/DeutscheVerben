@@ -16,7 +16,7 @@ struct AttemptHistoryRow: View {
         } label: {
             VStack(alignment: .leading, spacing: 4) {
                 Text(entry.id).font(.headline)
-                Text(entry.assisted ? "С опорой" : "\(entry.result.score.formatted())/10").font(.callout)
+                Text(entry.assisted ? L10n.text("Assisted") : "\(entry.result.score.formatted())/10").font(.callout)
                     .foregroundStyle(.secondary)
             }.padding(.vertical, 4)
         }

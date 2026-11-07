@@ -6,12 +6,12 @@ struct HistoryView: View {
     var body: some View {
         List {
             Section {
-                Text("Открытие ответов учитывается как подсказка.").font(.callout).foregroundStyle(.secondary)
+                Text(L10n.text("Opening answers counts as assistance.")).font(.callout).foregroundStyle(.secondary)
             }
             if model.state.history.isEmpty {
                 ContentUnavailableView(
-                    "Пока нет результатов", systemImage: "clock",
-                    description: Text("Пройди первый подход — здесь появятся ответы и примеры."))
+                    L10n.text("No results yet"), systemImage: "clock",
+                    description: Text(L10n.text("Complete your first session to see answers and examples here.")))
             }
             ForEach(model.state.history.reversed(), id: \.key) { entry in
                 if let verb = model.verbs.first(where: { $0.id == entry.id }) {

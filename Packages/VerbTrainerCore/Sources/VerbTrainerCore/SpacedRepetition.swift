@@ -18,7 +18,12 @@ public struct ReviewSchedule: Equatable, Sendable {
     }
     public var fraction: Double { successes == 0 ? 0 : stage == 3 ? 1 : Double(min(successes, 3)) / 4 }
     public var stageTitle: String {
-        failed ? "Повторить" : ["Не изучен", "В изучении", "Близко к закреплению", "Закреплён"][stage]
+        failed
+            ? L10n.text("Repeat")
+            : [
+                L10n.text("Not studied"), L10n.text("Learning"), L10n.text("Close to consolidation"),
+                L10n.text("Consolidated"),
+            ][stage]
     }
     public func isDue(on day: String) -> Bool { due.map { $0 <= day } ?? false }
 }

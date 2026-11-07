@@ -30,7 +30,7 @@ components:
 
 **Creative North Star: "The Quiet Practice Desk"**
 
-A quiet native practice desk: readable German forms, Russian guidance, and one recall task at a time. The established web trainer supplies the restrained green accent and recall-first hierarchy; SwiftUI supplies navigation, controls, appearance, and interaction. Operate mode preserves product behavior while translating its presentation to iPhone and Mac.
+A quiet native practice desk: readable German forms, localized guidance, and one recall task at a time. The established web trainer supplies the restrained green accent and recall-first hierarchy; SwiftUI supplies navigation, controls, appearance, and interaction. Operate mode preserves product behavior while translating its presentation to iPhone and Mac.
 
 Native SwiftUI for iPhone (iOS 18+) and Mac (macOS 15+). These are implemented platform targets, not an Android or browser design specification. Native defaults may change with the operating system; screenshots show one runtime, not fixed geometry to reproduce.
 

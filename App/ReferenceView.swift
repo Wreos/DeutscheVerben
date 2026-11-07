@@ -17,7 +17,7 @@ struct ReferenceView: View {
         return model.verbs.filter { verb in
             guard level == "all" || verb.level == level else { return false }
             let terms =
-                [verb.id, verb.meaning, verb.past, verb.participle, verb.aux, perfectForm(verb)]
+                [verb.id, verb.localizedMeaning, verb.past, verb.participle, verb.aux, perfectForm(verb)]
                 + (verb.pastAlternatives ?? [])
             return search.isEmpty || Grading.comparable(terms.joined(separator: " ")).contains(search)
         }
@@ -34,7 +34,8 @@ struct ReferenceView: View {
             let tableWidth = max(0, geometry.size.width - 40)
             let titles =
                 wide
-                ? ["Infinitiv", "Перевод", "Präteritum", "Partizip II"] : ["Infinitiv", "Präteritum", "Partizip II"]
+                ? ["Infinitiv", L10n.text("Meaning"), "Präteritum", "Partizip II"]
+                : ["Infinitiv", "Präteritum", "Partizip II"]
             let ratios: [CGFloat] = wide ? [0.17, 0.25, 0.21, 0.37] : [0.32, 0.27, 0.41]
             let widths = ratios.map { max(0, tableWidth - CGFloat(titles.count - 1) * 10) * $0 }
 
@@ -52,17 +53,18 @@ struct ReferenceView: View {
                         }
                     }
                     if !hidesForms {
-                        Text("Просмотр форм считается подсказкой.").font(.footnote).foregroundStyle(.secondary)
+                        Text(L10n.text("Viewing forms counts as assistance.")).font(.footnote).foregroundStyle(
+                            .secondary)
                     }
                 }.padding(.horizontal, 20).padding(.vertical, 12)
                 Divider()
                 if hidesForms {
                     ContentUnavailableView {
-                        Label("Идёт подход", systemImage: "book.closed")
+                        Label(L10n.text("Session in progress"), systemImage: "book.closed")
                     } description: {
-                        Text("Если показать формы, подход продолжится с опорой.")
+                        Text(L10n.text("Revealing forms will mark the rest of this session as assisted."))
                     } actions: {
-                        Button("Показать формы") { revealedSessionID = model.state.session?.id }
+                        Button(L10n.text("Reveal forms")) { revealedSessionID = model.state.session?.id }
                             .buttonStyle(.borderedProminent)
                     }
                 } else if rows.isEmpty {
@@ -82,7 +84,7 @@ struct ReferenceView: View {
                                     }
                                     .buttonStyle(.plain)
                                     .accessibilityLabel(accessibleRow(verb))
-                                    .accessibilityHint("Открыть контекст и пример")
+                                    .accessibilityHint(L10n.text("Open context and example"))
                                     .accessibilityIdentifier("reference-\(verb.id)")
                                     .onScrollVisibilityChange(threshold: 0.01) { visible in
                                         if visible { visibleRows.insert(verb.id) } else { visibleRows.remove(verb.id) }
@@ -113,20 +115,20 @@ struct ReferenceView: View {
                 }
             }
         }
-        .searchable(text: $query, prompt: "Глагол, форма или перевод")
+        .searchable(text: $query, prompt: L10n.text("Verb, form or meaning"))
         .sheet(item: $detail, onDismiss: { updateExposure() }) { verb in
             referenceSheet(verb.id) {
-                Text(verb.meaning).font(.title3)
-                LabeledContent("Набор", value: verb.level)
+                Text(verb.localizedMeaning).font(.title3)
+                LabeledContent(L10n.text("Group"), value: verb.level)
                 LabeledContent("Präteritum", value: pastForms(verb))
                 LabeledContent("Partizip II") { participleText(verb) }
-                Text(verb.context)
+                Text(verb.localizedContext)
                 Text(verb.example).italic().environment(\.locale, Locale(identifier: "de-DE"))
             }
             .onAppear { model.exposeReference([verb.id]) }
         }
         .sheet(isPresented: $showingRules) {
-            referenceSheet("Правила") { RulesView() }
+            referenceSheet(L10n.text("Rules")) { RulesView() }
         }
         .onAppear {
             isVisible = true
@@ -150,8 +152,8 @@ struct ReferenceView: View {
     }
 
     private var groupPicker: some View {
-        Picker("Набор", selection: $level) {
-            Text("Все группы").tag("all")
+        Picker(L10n.text("Group"), selection: $level) {
+            Text(L10n.text("All groups")).tag("all")
             Text("A1").tag("A1")
             Text("A2").tag("A2")
             Text("B1").tag("B1")
@@ -159,7 +161,7 @@ struct ReferenceView: View {
     }
 
     private var rulesButton: some View {
-        Button("Правила", systemImage: "book") { showingRules = true }
+        Button(L10n.text("Rules"), systemImage: "book") { showingRules = true }
             .buttonStyle(.bordered)
     }
 
@@ -172,10 +174,10 @@ struct ReferenceView: View {
             column(widths[0]) {
                 VStack(alignment: .leading, spacing: 3) {
                     Text(verb.id).font(.body.weight(.semibold)).foregroundStyle(Color.accentColor)
-                    if !wide { Text(verb.meaning).font(.caption).foregroundStyle(.secondary) }
+                    if !wide { Text(verb.localizedMeaning).font(.caption).foregroundStyle(.secondary) }
                 }
             }
-            if wide { column(widths[1]) { Text(verb.meaning).font(.callout) } }
+            if wide { column(widths[1]) { Text(verb.localizedMeaning).font(.callout) } }
             column(widths[wide ? 2 : 1]) { Text(pastForms(verb)).font(.callout) }
             column(widths[wide ? 3 : 2]) {
                 participleText(verb).font(.callout)
@@ -196,7 +198,10 @@ struct ReferenceView: View {
     }
 
     private func accessibleRow(_ verb: Verb) -> String {
-        "\(verb.id), \(verb.meaning). Präteritum: \(pastForms(verb)). Partizip II: \(verb.participle). С вспомогательным: \(perfectForm(verb))."
+        L10n.format(
+            "%@, %@. Präteritum: %@. Partizip II: %@. With auxiliary: %@.", String(describing: verb.id),
+            String(describing: verb.localizedMeaning), String(describing: pastForms(verb)),
+            String(describing: verb.participle), String(describing: perfectForm(verb)))
     }
 
     private func referenceSheet<V: View>(_ title: String, @ViewBuilder content: () -> V) -> some View {
@@ -210,7 +215,7 @@ struct ReferenceView: View {
             .navigationTitle(title)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Готово") {
+                    Button(L10n.text("Done")) {
                         detail = nil
                         showingRules = false
                     }

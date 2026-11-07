@@ -1,6 +1,8 @@
 require 'xcodeproj'
 root = File.expand_path('..', __dir__)
 project = Xcodeproj::Project.new(File.join(root, 'DeutscheVerben.xcodeproj'))
+project.root_object.development_region = 'en'
+project.root_object.known_regions = ['en', 'de', 'ru', 'Base']
 app = project.new_target(:application, 'DeutscheVerben', :ios, '18.0')
 app.product_reference.name = 'DeutscheVerben.app'
 group = project.main_group.new_group('App', 'App')
@@ -28,7 +30,7 @@ ui.resources_build_phase.add_file_reference(fixtures.new_file('synthetic-progres
  end
 end
 app.build_configurations.each do |c|
- c.build_settings.merge!({'INFOPLIST_KEY_CFBundleDisplayName'=>'Deutsche Verben', 'INFOPLIST_KEY_UILaunchScreen_Generation'=>'YES', 'INFOPLIST_KEY_UIApplicationSceneManifest_Generation'=>'YES', 'ASSETCATALOG_COMPILER_APPICON_NAME'=>'AppIcon', 'ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME'=>'AccentColor', 'INFOPLIST_KEY_LSApplicationCategoryType'=>'public.app-category.education', 'CODE_SIGN_IDENTITY[sdk=macosx*]'=>'-', 'ENABLE_HARDENED_RUNTIME'=>'YES', 'MARKETING_VERSION'=>'1.0', 'CURRENT_PROJECT_VERSION'=>'1'})
+ c.build_settings.merge!({'INFOPLIST_FILE'=>'App/Info.plist', 'INFOPLIST_KEY_CFBundleDisplayName'=>'Deutsche Verben', 'INFOPLIST_KEY_UILaunchScreen_Generation'=>'YES', 'INFOPLIST_KEY_UIApplicationSceneManifest_Generation'=>'YES', 'ASSETCATALOG_COMPILER_APPICON_NAME'=>'AppIcon', 'ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME'=>'AccentColor', 'INFOPLIST_KEY_LSApplicationCategoryType'=>'public.app-category.education', 'CODE_SIGN_IDENTITY[sdk=macosx*]'=>'-', 'ENABLE_HARDENED_RUNTIME'=>'YES', 'MARKETING_VERSION'=>'1.0', 'CURRENT_PROJECT_VERSION'=>'1'})
 end
 ui.build_configurations.each { |c| c.build_settings['TEST_TARGET_NAME']='DeutscheVerben' }
 project.save
