@@ -1,53 +1,71 @@
 # Deutsche Verben
 
-Нативный офлайн-тренажёр немецких глаголов для iPhone и Mac. Интерфейс и переводы на русском, примеры на немецком. Приложение написано на SwiftUI, учебная логика вынесена в локальный Swift Package.
+[![CI](https://github.com/Wreos/DeutscheVerben/actions/workflows/ci.yml/badge.svg)](https://github.com/Wreos/DeutscheVerben/actions/workflows/ci.yml)
 
-## Возможности
+An offline German verb trainer for iPhone and Mac, built with SwiftUI and a local Swift package. Instructions and translations are in Russian, with German forms and examples.
 
-- 60 глаголов, группы A1/A2/B1, Präteritum, Partizip II и выбор haben/sein в контексте.
-- Подходы до 10 глаголов, сохранение черновиков и продолжение после перезапуска.
-- Интервальные повторения, история исходных ответов и учёт подсказок.
-- Таблица глаголов с поиском, примерами и правилами.
-- Импорт, экспорт и восстановление прогресса через JSON с резервными копиями.
-- Светлая и тёмная темы, системные размеры текста, управление с клавиатуры на Mac.
+## Features
 
-## Запуск
+- 60 German verbs in A1, A2 and B1 study groups, with Präteritum, Partizip II and context-specific haben/sein practice.
+- Sessions of up to 10 verbs, saved drafts and session recovery after restarting the app.
+- Spaced repetition, original-answer history and assistance tracking.
+- A searchable verb table with examples and usage rules.
+- JSON import, export and restore with backups.
+- Light and dark appearance, system text sizes and Mac keyboard shortcuts.
 
-Нужен Mac с Xcode и Swift 6. Минимальные версии приложения — iOS 18 и macOS 15.
+## Screenshots
 
-Открой `DeutscheVerben.xcodeproj`, выбери схему `DeutscheVerben` и устройство My Mac или iPhone Simulator, затем нажми Run. Для установки на собственный iPhone выбери свою Apple Development Team в Signing & Capabilities.
+The screenshots show the app's Russian interface. iPhone images were captured in Simulator.
 
-Для локальной сборки Mac также доступен скрипт.
+### iPhone reference table
+
+<img src="Documentation/Screenshots/iphone-reference.png" alt="iPhone reference table with German verb forms and Russian translations" width="300">
+
+### Mac practice
+
+<img src="Documentation/Screenshots/mac-practice.png" alt="Mac practice screen asking for Präteritum, Partizip II and the auxiliary verb" width="800">
+
+### Mac reference table
+
+<img src="Documentation/Screenshots/mac-reference.png" alt="Mac reference table in dark appearance, with translations and German verb forms" width="800">
+
+## Getting started
+
+You need a Mac with Xcode and Swift 6. The app supports iOS 18 and macOS 15 or later.
+
+Open `DeutscheVerben.xcodeproj`, select the `DeutscheVerben` scheme and choose My Mac or an iPhone Simulator, then run the app. To install it on your own iPhone, select your Apple Development Team in Signing & Capabilities.
+
+You can also build and open the Mac app using the included script.
 
 ```sh
 ./scripts/build.sh macOS
 open Build/macOS/Products/Debug/DeutscheVerben.app
 ```
 
-Скрипт использует локальную ad-hoc подпись. Распространение готового приложения потребует отдельной настройки подписи и notarization либо публикации в App Store.
+The script uses local ad-hoc signing. Distributing a compiled app requires appropriate signing and notarization, or an App Store release.
 
-## Прогресс и перенос данных
+## Progress and data transfer
 
-На каждом устройстве прогресс хранится в `Application Support/DeutscheVerben/progress.json`. Предыдущая версия сохраняется рядом как `progress.json.previous`. Перед импортом создаётся дополнительная резервная копия.
+Each device stores progress in `Application Support/DeutscheVerben/progress.json`. The previous version is kept alongside it as `progress.json.previous`, and imports create an additional backup.
 
-Для переноса между iPhone и Mac экспортируй JSON на вкладке «Данные» и импортируй его на другом устройстве. Автоматической межустройственной синхронизации нет. Импорт объединяет историю, а при несовместимых версиях одного подхода останавливается с сообщением. Отдельное действие «Восстановить из JSON-копии» заменяет состояние с резервированием текущего файла.
+To transfer progress between iPhone and Mac, export JSON from the Data tab and import it on the other device. Cross-device transfer is manual. Imports merge history and stop with an error when two versions of the same session conflict. The separate Restore from JSON Backup action replaces the current state after backing it up.
 
-Поддерживается импорт формата v1 исходного веб-тренажёра. Открытие правильных форм записывается как помощь, такие попытки исключаются из самостоятельного продвижения. [Методика интервальных повторений](Documentation/RESEARCH.md).
+The app supports v1 exports from the original web trainer. Viewing correct forms is recorded as assistance, and assisted attempts are excluded from independent scheduling progress. The scheduling policy is described in the [spaced repetition research notes](Documentation/RESEARCH.md).
 
-## Разработка
+## Development
 
-- `App/` — интерфейс SwiftUI и модель состояния приложения.
-- `Packages/VerbTrainerCore/` — словарь, оценка ответов, расписание, валидация и хранение.
-- `UITests/` — сценарии приложения с отдельными временными данными.
-- `scripts/` — сборка, генерация Xcode-проекта и иконки.
-- `Documentation/` — методика и ссылки на платформенную документацию.
+- `App/` contains the SwiftUI interface and app state model.
+- `Packages/VerbTrainerCore/` contains the dictionary, grading, scheduling, validation and storage.
+- `UITests/` contains app scenarios using isolated temporary data.
+- `scripts/` contains build, Xcode project generation and icon generation tools.
+- `Documentation/` contains research notes, platform references and screenshots.
 
-Xcode-проект включён в репозиторий. Ruby gem `xcodeproj` нужен только при его регенерации. Сторонних runtime-зависимостей нет.
+The Xcode project is included. The Ruby gem `xcodeproj` is needed only to regenerate it. The app has no third-party runtime dependencies.
 
-GitHub Actions проверяет формат Swift, синтаксис скриптов, тесты ядра, релизные сборки iOS/macOS и UI-сценарии macOS. Правила форматирования заданы в `.swift-format`. Изменения форматируются встроенным в Xcode инструментом `swift-format`.
+GitHub Actions checks Swift formatting, script syntax, core tests, iOS and macOS release builds, and macOS UI scenarios. Formatting rules live in `.swift-format` and use the `swift-format` tool bundled with Xcode.
 
-Тестовый выбор хранилища и воспроизводимой очереди доступен только в Debug-конфигурации. Тестовые фикстуры содержат синтетические ответы.
+Test storage overrides and deterministic queues are available in Debug builds. Test fixtures contain synthetic answers.
 
-## Ограничения
+## Limitations
 
-60 глаголов и примеры охватывают часть немецкой грамматики. Шкала закрепления показывает результаты повторений и не подтверждает уровень CEFR. Проверка на физическом iPhone и проверка VoiceOver пользователем пока не завершены.
+The 60 verbs and their examples cover part of German grammar. Progress stages describe practice results and do not establish a CEFR level. Validation on a physical iPhone and user testing with VoiceOver are still pending.

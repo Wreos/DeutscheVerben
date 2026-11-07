@@ -90,17 +90,17 @@ Use system bordered and bordered-prominent buttons, rounded-border text fields, 
 
 ### Navigation
 
-Four `TabView` destinations, each with a `NavigationStack`: **Тренировка**, **Таблица**, **Прогресс**, **Данные**. Each uses a text label and SF Symbol. The table’s “Правила” button opens the rules separately. Original-answer history is a navigation drill-down from Progress, not a fifth tab.
+Four `TabView` destinations, each with a `NavigationStack`: **Practice**, **Reference**, **Progress**, **Data**. Each uses a text label and SF Symbol. The table’s “Rules” button opens the rules separately. Original-answer history is a navigation drill-down from Progress, not a fifth tab.
 
 ### Buttons and fields
 
 Primary actions use `.borderedProminent` and `.controlSize(.large)` with explicit appearance-specific label foregrounds. Approach/help actions use `.bordered` and large controls. Other list/form actions retain native defaults. Status is conveyed in titles and text, not just tint.
 
-Präteritum and Partizip II have persistent visible labels and instruction text; their text fields use `.roundedBorder`, disable autocorrection, and disable iOS autocapitalization. Perfekt auxiliary selection is a labelled segmented picker with “Выбери”, “haben”, and “sein”. Checking disables the answer controls and exposes inline feedback. Focus moves past → participle → auxiliary. Command-Return checks; Return advances a checked answer.
+Präteritum and Partizip II have persistent visible labels and instruction text; their text fields use `.roundedBorder`, disable autocorrection, and disable iOS autocapitalization. Perfekt auxiliary selection is a labelled segmented picker with “Choose”, “haben”, and “sein”. Checking disables the answer controls and exposes inline feedback. Focus moves past → participle → auxiliary. Command-Return checks; Return advances a checked answer.
 
 ### Feedback and history
 
-A divider separates the checked result from the input. Expected forms and original answers remain distinct and selectable. Independent results show numeric score and textual per-form status; assisted results say “С опорой” and omit independent score presentation. History uses disclosure rows to keep long records compact; expanding details reveals forms and counts as help. Summary separates independent and assisted attempt counts.
+A divider separates the checked result from the input. Expected forms and original answers remain distinct and selectable. Independent results show numeric score and textual per-form status; assisted results say “Assisted” and omit independent score presentation. History uses disclosure rows to keep long records compact; expanding details reveals forms and counts as help. Summary separates independent and assisted attempt counts.
 
 ### Progress and reference
 
@@ -129,4 +129,4 @@ Use system alerts for errors and import results, confirmation dialogs before mer
 
 ## Learning copy
 
-Keep screens focused on the learning task. Do not show repeated CEFR/study-group disclaimers, research/diagnostic caveats, algorithm names, storage paths, help-event counters or raw event kinds. Detailed scientific and storage rationale belongs in README/Documentation. Keep field instructions, verb context, concise assistance labels, scoring feedback, actionable empty/error states and import/restore consequences. Explanation of the progress scale stays collapsed under “Как читать шкалу”. No extra training hero above the controls; the native navigation title supplies the heading.
+Keep screens focused on the learning task. Do not show repeated CEFR/study-group disclaimers, research/diagnostic caveats, algorithm names, storage paths, help-event counters or raw event kinds. Detailed scientific and storage rationale belongs in README/Documentation. Keep field instructions, verb context, concise assistance labels, scoring feedback, actionable empty/error states and import/restore consequences. Explanation of the progress scale stays collapsed under “How to read the scale”. No extra training hero above the controls; the native navigation title supplies the heading.

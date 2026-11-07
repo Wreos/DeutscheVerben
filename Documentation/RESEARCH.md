@@ -1,42 +1,44 @@
-# Интервальное изучение: 10 источников и решение
+# Spaced repetition research and scheduling policy
 
-Проверено 4 ноября 2026. Ниже — восемь научных работ/обзоров и две первичные документации алгоритмов. Для научных работ использованы доступные аннотации и, где доступен, полный текст; это не заявление о прочтении всех закрытых полных текстов. Две документации не являются независимыми экспериментальными подтверждениями.
+Reviewed on November 4, 2026. The references include eight research papers or reviews and two primary algorithm descriptions. The research review used available abstracts and full text where accessible. The algorithm descriptions document implementation choices and provide no independent experimental validation.
 
-| Источник | Что использовано в решении |
+## Sources
+
+| Source | Application in this project |
 | --- | --- |
-| 1. [Cepeda et al., 2006 — Distributed practice in verbal recall tasks](https://pubmed.ncbi.nlm.nih.gov/16719566/), DOI 10.1037/0033-2909.132.3.354 | Метаанализ поддерживает распределение практики во времени; подходящий интервал зависит от срока удержания. Один универсальный «научно идеальный» интервал не заявляем. |
-| 2. [Cepeda et al., 2008 — Spacing Effects in Learning](https://doi.org/10.1111/j.1467-9280.2008.02209.x) | Слишком короткие и слишком длинные промежутки могут уступать подходящему интервалу. Повторяем по датам, не показываем все уже знакомые карточки ежедневно. |
-| 3. [Roediger & Karpicke, 2006 — Test-enhanced learning](https://pubmed.ncbi.nlm.nih.gov/16507066/), DOI 10.1111/j.1467-9280.2006.01693.x | Воспроизведение из памяти помогает отсроченному удержанию. В интерфейсе сначала ввод, затем показ ответа. |
-| 4. [Karpicke & Roediger, 2008 — The Critical Importance of Retrieval for Learning](https://doi.org/10.1126/science.1152408) | Успешный первый ответ не означает завершение обучения. Продолжаем запланированные проверки после успехов. |
-| 5. [Dunlosky et al., 2013 — Improving Students’ Learning With Effective Learning Techniques](https://doi.org/10.1177/1529100612453266), DOI 10.1177/1529100612453266 | Практическое тестирование и распределённая практика имеют широкую поддержку. Справочник дополняет активное воспроизведение. |
-| 6. [Rawson & Dunlosky, 2011 — Optimizing schedules of retrieval practice](https://pubmed.ncbi.nlm.nih.gov/21707204/), DOI 10.1037/a0023956 | Повторное изучение в нескольких разнесённых сессиях помогает долговременной сохранности. Нужны успехи в разные даты, а не серия немедленных копий. Их точный экспериментальный протокол здесь не воспроизводится. |
-| 7. [Kornell, 2009 — Optimising learning using flashcards](https://doi.org/10.1002/acp.1537) | Для карточек распределённая практика превосходила сосредоточенное повторение. Сохраняем короткий подход, но не выдаём ежедневное перечитывание за усвоение. |
-| 8. [Pashler et al., 2005 — When does feedback facilitate learning of words?](https://pubmed.ncbi.nlm.nih.gov/15641900/), DOI 10.1037/0278-7393.31.1.3 | Правильный ответ после ошибки полезен. Показываем формы и пример после проверки, затем отделяем помощь от последующего самостоятельного ответа. |
-| 9. [Woźniak — оригинальное описание SM-2](https://www.super-memory.com/english/ol/sm2.htm) | База прозрачного алгоритма: интервалы 1, 6 дней, далее умножение на коэффициент лёгкости; коэффициент начинается с 2,5, нижняя граница 1,3; неуспех сбрасывает серию. Это эвристический алгоритм, а не гарантия запоминания. |
-| 10. [Anki — What spaced repetition algorithm does Anki use?](https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html) | Документация различает модификации SM-2 и FSRS. Не называем свою реализацию алгоритмом Anki или FSRS. Персонализированная подгонка модели в первой версии отсутствует. |
+| [Cepeda et al., 2006 — Distributed practice in verbal recall tasks](https://pubmed.ncbi.nlm.nih.gov/16719566/) | The meta-analysis supports distributing practice over time. Suitable spacing depends on the intended retention period. |
+| [Cepeda et al., 2008 — Spacing Effects in Learning](https://doi.org/10.1111/j.1467-9280.2008.02209.x) | Both very short and very long intervals can underperform suitable spacing. Reviews follow due dates, with familiar cards returning when scheduled. |
+| [Roediger & Karpicke, 2006 — Test-enhanced learning](https://pubmed.ncbi.nlm.nih.gov/16507066/) | Retrieval practice supports delayed retention. Learners enter an answer before seeing the correct forms. |
+| [Karpicke & Roediger, 2008 — The Critical Importance of Retrieval for Learning](https://doi.org/10.1126/science.1152408) | Retrieval continues after the first successful answer through scheduled follow-up reviews. |
+| [Dunlosky et al., 2013 — Improving Students’ Learning With Effective Learning Techniques](https://doi.org/10.1177/1529100612453266) | Practice testing and distributed practice have broad support. The reference table supplements active retrieval. |
+| [Rawson & Dunlosky, 2011 — Optimizing schedules of retrieval practice](https://pubmed.ncbi.nlm.nih.gov/21707204/) | Relearning across spaced sessions supports long-term retention. Successes must occur on separate dates. The app uses its own review protocol. |
+| [Kornell, 2009 — Optimising learning using flashcards](https://doi.org/10.1002/acp.1537) | Distributed flashcard practice outperformed massed practice. Short sessions are combined with scheduled retrieval. |
+| [Pashler et al., 2005 — When does feedback facilitate learning of words?](https://pubmed.ncbi.nlm.nih.gov/15641900/) | Corrective feedback after an error can help learning. Forms and examples appear after checking, and assistance is tracked separately from later independent retrieval. |
+| [Woźniak — Original SM-2 description](https://www.super-memory.com/english/ol/sm2.htm) | The scheduling baseline uses intervals of 1 and 6 days, then multiplies by an ease factor starting at 2.5, with a lower bound of 1.3. Failure resets the success streak. |
+| [Anki — What spaced repetition algorithm does Anki use?](https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html) | The documentation distinguishes modified SM-2 from FSRS. This app implements its own SM-2 adaptation, with fixed scheduling rules and no personalized model fitting. |
 
-## Принятое решение
+## Scheduling policy
 
-Независимая локальная адаптация SM-2 без сторонних библиотек и AI. Алгоритм восстанавливается из неизменяемой истории ответов; экспорт/импорт переносит и его доказательную основу. Расписание одной карточки относится ко всему глаголу: две формы + контекстный haben/sein. Это сознательно более крупная карточка, чем минимальная единица SM-2.
+The app implements a local SM-2 adaptation. Schedules are reconstructed from immutable answer history, so JSON exports carry the evidence needed to rebuild them. Each card covers an entire verb, including two principal parts and the auxiliary required by its context. This makes the retrieval unit larger than a minimal SM-2 item.
 
-- Точный самостоятельный ответ: качество q=5. Все поля верны с максимум одной опечаткой в каждой форме: q=4. Любая неверная/пустая форма или неверный вспомогательный: q=1.
-- После успехов: 1 день, 6 дней, затем ceil(предыдущий интервал × прежний EF). EF обновляется по формуле SM-2; минимум 1,3. Продуктовое ограничение интервала — 365 дней.
-- После ошибки: серия = 0, интервал = 1 день. Коррекция доступна сразу через явное повторение ошибок, но после показа ответа оно с опорой.
-- Только первый самостоятельный ответ глагола в берлинский день может влиять на расписание. Помощь не влияет. Досрочный успешный ответ не повышает серию и не сдвигает дату. Досрочная ошибка сбрасывает серию.
-- В обычном подходе до 10 карточек: ошибки с наступившей датой → остальные наступившие повторения (ранние сроки первыми) → новые. Будущие карточки и формы, показанные сегодня, не используются для заполнения до десяти. Если доступно меньше, подход короче. Явный режим «Ошибки» позволяет повторить раньше.
-- Calendar Europe/Berlin считает календарные дни, включая переходы летнего времени, а не интервалы по 86400 секунд.
+- An exact independent answer receives quality `q = 5`. Correct fields with at most one typo in each principal part receive `q = 4`. Any wrong or empty form, or an incorrect auxiliary, receives `q = 1`.
+- Successful reviews use intervals of 1 day, 6 days, then `ceil(previous interval × previous ease factor)`. The ease factor follows the SM-2 formula with a minimum of 1.3. The app caps intervals at 365 days.
+- Failure resets the success streak to zero and sets the next interval to 1 day. Explicit mistake practice is available immediately. Attempts following a revealed answer are marked as assisted.
+- Only the first independent answer for a verb on a Berlin calendar day is eligible to affect scheduling. Assisted answers are excluded. An early success preserves the current streak and due date. An eligible early failure resets the streak.
+- Ordinary sessions contain up to 10 cards, ordered by due mistakes, other due reviews with earlier dates first, then new verbs. Future cards and forms shown today are excluded from ordinary sessions. Sessions can be shorter than 10 cards. Explicit mistake practice permits early reviews.
+- Calendar calculations use `Europe/Berlin` calendar days, including daylight-saving transitions.
 
-## Шкала в интерфейсе
+## Progress stages
 
-Этапы — продуктовая эвристика, не вывод из исследований о личной памяти пользователя:
+The stages are product heuristics for displaying practice history.
 
-- 0%: нет текущей серии самостоятельных успехов; ошибка показывает «Повторить».
-- 25%: один успех; 50%: два; 75%: минимум три, «Близко к закреплению».
-- 100% / «Закреплён»: минимум четыре успеха подряд, последний точный, и перед ним фактический перерыв минимум 14 календарных дней. При невыполнении условия карточка остаётся на 75%.
-- Общая шкала — среднее этапов всех 60 глаголов. Это **не вероятность воспроизведения, не оценка CEFR и не обещание вечного знания**. У закреплённой карточки остаётся дата следующей проверки.
+- 0% means there is no current streak of independent successes. A failed card is labelled Repeat.
+- 25% means one success, 50% means two, and 75% means at least three, labelled Close to consolidation.
+- 100%, labelled Consolidated, requires at least four consecutive successes, an exact final answer and an actual gap of at least 14 calendar days before that answer. Otherwise, the card stays at 75%.
+- Overall progress averages the stages of all 60 verbs. Consolidated cards retain their next review date. These percentages describe practice stages and cannot establish recall probability, a CEFR level or permanent retention.
 
-Порог 4 успеха / 14 дней, отображаемые проценты, q=5/4/1, ограничение 365 дней и правила досрочного ответа — решения этого приложения. Источники поддерживают общие принципы извлечения из памяти и распределения практики, но не подтверждают оптимальность именно этих параметров для данного пользователя. Настройка/FSRS — отдельное возможное развитие после накопления реальных данных.
+The four-success threshold, 14-day gap, displayed percentages, quality values, 365-day cap and early-review rules are application policy. The sources support retrieval practice and spacing in general. Their findings do not establish that these particular parameters are optimal for an individual learner. Personalized scheduling or FSRS could be evaluated after enough real review data becomes available.
 
-## Осознанное отличие от вебверсии
+## Compatibility with the web trainer
 
-Оригинальная очередь вебверсии не является SRS: ошибки → непроверенные → прочие, без сроков. По дополнительному запросу пользователя нативная обычная очередь заменена на расписание выше. Функция старой очереди остаётся в пакете для проверки совместимости, оценки форм совпадают с вебверсией. Исходники вебверсии и учебные базы не менялись.
+The original web trainer prioritizes mistakes, unchecked verbs and remaining verbs without due dates. The native app uses the schedule above for ordinary sessions. The package retains the older queue function for compatibility checks, and form grading matches the web version. The native app keeps its progress history separate from the web trainer and lesson databases.
