@@ -25,7 +25,7 @@ struct FeedbackView: View {
                 assisted: entry.assisted,
                 expected: "\(entry.result.aux.expected == "sein" ? "ist" : "hat") \(entry.result.participle.expected)")
             FormFeedbackRow(
-                title: L10n.text("Auxiliary verb"), answer: entry.answers.aux, result: entry.result.aux,
+                title: L10n.text("Auxiliary verb"), answer: entry.answers.auxiliaryInput, result: entry.result.aux,
                 assisted: entry.assisted)
             if let alternatives = verb.pastAlternatives, !alternatives.isEmpty {
                 Text(L10n.format("Also accepted: %@", String(describing: alternatives.joined(separator: ", ")))).font(

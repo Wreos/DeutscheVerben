@@ -21,6 +21,13 @@ public struct Answers: Codable, Equatable, Sendable {
         }
     }
 
+    public var auxiliaryInput: String {
+        guard let perfect else { return aux }
+        let words = perfect.split(whereSeparator: \.isWhitespace)
+        guard !aux.isEmpty || words.count > 1 else { return "" }
+        return words.first.map(String.init) ?? ""
+    }
+
     var hasConsistentPerfect: Bool {
         guard let perfect else { return true }
         let components = Self.splitPerfect(perfect)

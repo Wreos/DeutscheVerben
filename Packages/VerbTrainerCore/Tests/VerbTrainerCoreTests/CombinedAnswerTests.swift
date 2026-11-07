@@ -31,6 +31,9 @@ struct CombinedAnswerTests {
             #expect(grade.aux.score == 0)
             #expect(!grade.passed)
         }
+        #expect(Answers(perfect: "hst gegangen").auxiliaryInput == "hst")
+        #expect(Answers(perfect: "gegangen").auxiliaryInput.isEmpty)
+        #expect(Answers(perfect: "  IST gegangen").auxiliaryInput == "IST")
         let typo = Grading.grade(verb, Answers(past: "ging", perfect: "ist geganggen"))
         #expect(typo.participle.score == 9)
         #expect(typo.aux.score == 10)
