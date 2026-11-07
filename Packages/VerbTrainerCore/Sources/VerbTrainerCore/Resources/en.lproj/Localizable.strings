@@ -27,10 +27,10 @@
 "Case, extra spaces and trailing . ! ? do not affect grading. You can use ae / oe / ue for ä / ö / ü and ss for ß." = "Case, extra spaces and trailing . ! ? do not affect grading. You can use ae / oe / ue for ä / ö / ü and ss for ß.";
 "Check" = "Check";
 "Check review dates in Progress or come back tomorrow." = "Check review dates in Progress or come back tomorrow.";
-"Choose" = "Choose";
 "Choose backup to restore" = "Choose backup to restore";
 "Choose file and merge" = "Choose file and merge";
 "Close to consolidation" = "Close to consolidation";
+"Combined answer does not match its components" = "Combined answer does not match its components";
 "Complete your first session to see answers and examples here." = "Complete your first session to see answers and examples here.";
 "Conflicting assistance history" = "Conflicting assistance history";
 "Conflicting original answer. Keep both exports separately." = "Conflicting original answer. Keep both exports separately.";
@@ -57,7 +57,7 @@
 "Export original file" = "Export original file";
 "Extended · B1" = "Extended · B1";
 "File exceeds 20 MB" = "File exceeds 20 MB";
-"Fill in both forms and choose haben or sein. If you cannot recall them, tap I don't know." = "Fill in both forms and choose haben or sein. If you cannot recall them, tap I don't know.";
+"Fill in Präteritum and Partizip II with hat or ist. If you cannot recall them, tap I don't know." = "Fill in Präteritum and Partizip II with hat or ist. If you cannot recall them, tap I don't know.";
 "Follow the review schedule in Progress. Successes increase intervals. After an error, the verb returns tomorrow. Mistakes and due verbs come first." = "Follow the review schedule in Progress. Successes increase intervals. After an error, the verb returns tomorrow. Mistakes and due verbs come first.";
 "For ich / er / sie / es, without the pronoun" = "For ich / er / sie / es, without the pronoun";
 "Forms already shown" = "Forms already shown";
@@ -72,6 +72,7 @@
 "Import complete. History merged while preserving existing answers." = "Import complete. History merged while preserving existing answers.";
 "Import result" = "Import result";
 "Import stopped: %@" = "Import stopped: %@";
+"Include hat or ist before Partizip II. You can also use haben or sein." = "Include hat or ist before Partizip II. You can also use haben or sein.";
 "Incorrect · 0/10" = "Incorrect · 0/10";
 "Independent attempts: %@ · Assisted: %@" = "Independent attempts: %@ · Assisted: %@";
 "Independent: %@ · Assisted: %@" = "Independent: %@ · Assisted: %@";
@@ -98,12 +99,11 @@
 "No verbs in this group yet." = "No verbs in this group yet.";
 "Not studied" = "Not studied";
 "OK" = "OK";
-"One letter error earns 9/10 for a form. More than one earns 0/10. The overall score averages both forms and the haben / sein choice." = "One letter error earns 9/10 for a form. More than one earns 0/10. The overall score averages both forms and the haben / sein choice.";
+"One letter error earns 9/10 for a verb form. More than one earns 0/10. The auxiliary is checked separately. The overall score averages Präteritum, Partizip II and the auxiliary." = "One letter error earns 9/10 for a verb form. More than one earns 0/10. The auxiliary is checked separately. The overall score averages Präteritum, Partizip II and the auxiliary.";
 "Open context and example" = "Open context and example";
 "Opening answers counts as assistance." = "Opening answers counts as assistance.";
 "Original answer does not match the draft" = "Original answer does not match the draft";
 "Original answer history" = "Original answer history";
-"Participle only, without haben / sein" = "Participle only, without haben / sein";
 "Paused sessions" = "Paused sessions";
 "Practice" = "Practice";
 "Practise with assistance" = "Practise with assistance";
@@ -111,7 +111,7 @@
 "Progress" = "Progress";
 "Progress is stored on this device. To transfer it between iPhone and Mac, export JSON and import it on the other device." = "Progress is stored on this device. To transfer it between iPhone and Mac, export JSON and import it on the other device.";
 "Ready for ten verbs?" = "Ready for ten verbs?";
-"Recall Präteritum for ich / er / sie / es without the pronoun, Partizip II and haben or sein for the given context." = "Recall Präteritum for ich / er / sie / es without the pronoun, Partizip II and haben or sein for the given context.";
+"Recall Präteritum for ich / er / sie / es without the pronoun. In the Partizip II field, enter hat or ist followed by the participle for the given context. Haben and sein are also accepted." = "Recall Präteritum for ich / er / sie / es without the pronoun. In the Partizip II field, enter hat or ist followed by the participle for the given context. Haben and sein are also accepted.";
 "Recall independently first" = "Recall independently first";
 "Reference" = "Reference";
 "Repeat" = "Repeat";
@@ -145,12 +145,12 @@
 "View summary" = "View summary";
 "Viewing forms counts as assistance." = "Viewing forms counts as assistance.";
 "You can use ae / oe / ue for ä / ö / ü and ss for ß." = "You can use ae / oe / ue for ä / ö / ü and ss for ß.";
-"Your Partizip II form" = "Your Partizip II form";
 "Your Präteritum form" = "Your Präteritum form";
 "Your answer: %@" = "Your answer: %@";
 "Your current history will be preserved. Conflicting records will stop the import." = "Your current history will be preserved. Conflicting records will stop the import.";
 "Your current progress will be replaced after creating a backup. Use Import to add results to your current history." = "Your current progress will be replaced after creating a backup. Use Import to add results to your current history.";
 "assisted" = "assisted";
+"hat / ist + Partizip II" = "hat / ist + Partizip II";
 "not filled in" = "not filled in";
 "verb.anfangen.context" = "starting an activity";
 "verb.anfangen.meaning" = "start";

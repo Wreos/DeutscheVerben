@@ -18,12 +18,12 @@ final class FlowTests: XCTestCase {
         app.launch()
         XCTAssertEqual(app.textFields["past"].value as? String, "war")
         app.textFields["participle"].tap()
-        enter("gewesen", field: app.textFields["participle"], app: app)
-        #if os(macOS)
-            app.radioButtons["sein"].tap()
-        #else
-            app.buttons["sein"].tap()
-        #endif
+        enter("ist gewesen", field: app.textFields["participle"], app: app)
+        app.terminate()
+        app.launch()
+        XCTAssertEqual(app.textFields["participle"].value as? String, "ist gewesen")
+        XCTAssertFalse(app.radioButtons["sein"].exists)
+        XCTAssertFalse(app.buttons["haben"].exists)
         reveal(app.buttons["check"], app: app)
         app.buttons["check"].tap()
         XCTAssertTrue(app.staticTexts["score"].waitForExistence(timeout: 5))

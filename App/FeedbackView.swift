@@ -21,10 +21,12 @@ struct FeedbackView: View {
             FormFeedbackRow(
                 title: "Präteritum", answer: entry.answers.past, result: entry.result.past, assisted: entry.assisted)
             FormFeedbackRow(
-                title: "Partizip II", answer: entry.answers.participle, result: entry.result.participle,
-                assisted: entry.assisted)
+                title: "Partizip II", answer: entry.answers.perfectInput, result: entry.result.participle,
+                assisted: entry.assisted,
+                expected: "\(entry.result.aux.expected == "sein" ? "ist" : "hat") \(entry.result.participle.expected)")
             FormFeedbackRow(
-                title: "Perfekt", answer: entry.answers.aux, result: entry.result.aux, assisted: entry.assisted)
+                title: L10n.text("Auxiliary verb"), answer: entry.answers.aux, result: entry.result.aux,
+                assisted: entry.assisted)
             if let alternatives = verb.pastAlternatives, !alternatives.isEmpty {
                 Text(L10n.format("Also accepted: %@", String(describing: alternatives.joined(separator: ", ")))).font(
                     .callout)
@@ -41,10 +43,11 @@ private struct FormFeedbackRow: View {
     let title, answer: String
     let result: FormResult
     let assisted: Bool
+    var expected: String? = nil
     var body: some View {
         VStack(alignment: .leading, spacing: 3) {
             Text(title).font(.caption).foregroundStyle(.secondary)
-            Text(result.expected).font(.headline).environment(\.locale, Locale(identifier: "de-DE"))
+            Text(expected ?? result.expected).font(.headline).environment(\.locale, Locale(identifier: "de-DE"))
             Text(
                 L10n.format("Your answer: %@", String(describing: answer.isEmpty ? L10n.text("not filled in") : answer))
             ).font(.callout)

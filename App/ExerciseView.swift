@@ -8,7 +8,7 @@ struct ExerciseView: View {
     let verb: Verb
     let session: TrainingSession
     @FocusState private var focus: Field?
-    enum Field: Hashable { case past, participle, aux }
+    enum Field: Hashable { case past, participle }
     private var assisted: Bool { Training.assisted(model.state, id: verb.id, now: Date()) }
 
     var body: some View {
@@ -49,22 +49,14 @@ struct ExerciseView: View {
                 }
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Partizip II").font(.headline)
-                    Text(L10n.text("Participle only, without haben / sein")).font(.caption).foregroundStyle(.secondary)
-                    TextField(L10n.text("Your Partizip II form"), text: $model.draft.participle)
-                        .focused($focus, equals: .participle).onSubmit { focus = .aux }
+                    Text(L10n.text("Include hat or ist before Partizip II. You can also use haben or sein.")).font(
+                        .caption
+                    ).foregroundStyle(.secondary)
+                    TextField(L10n.text("hat / ist + Partizip II"), text: $model.draft.perfectInput)
+                        .focused($focus, equals: .participle)
                         .accessibilityIdentifier("participle")
                 }
-                VStack(alignment: .leading, spacing: 6) {
-                    Text(L10n.text("Auxiliary verb")).font(.headline)
-                    Picker(L10n.text("Auxiliary verb"), selection: $model.draft.aux) {
-                        Text(L10n.text("Choose")).tag("")
-                        Text("haben").tag("haben")
-                        Text("sein").tag("sein")
-                    }
-                    .labelsHidden()
-                    .pickerStyle(.segmented)
-                    .focused($focus, equals: .aux)
-                }
+
             }
             .textFieldStyle(.roundedBorder).controlSize(.large).autocorrectionDisabled()
             #if os(iOS)

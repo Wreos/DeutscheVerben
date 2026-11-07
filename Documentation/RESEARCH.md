@@ -19,7 +19,7 @@ Reviewed on November 4, 2026. The references include eight research papers or re
 
 ## Scheduling policy
 
-The app implements a local SM-2 adaptation. Schedules are reconstructed from immutable answer history, so JSON exports carry the evidence needed to rebuild them. Each card covers an entire verb, including two principal parts and the auxiliary required by its context. This makes the retrieval unit larger than a minimal SM-2 item.
+The app implements a local SM-2 adaptation. Schedules are reconstructed from immutable answer history, so JSON exports carry the evidence needed to rebuild them. Each card covers an entire verb, including Präteritum and the auxiliary + Partizip II combination required by its context. The combined field is graded as a participle and an auxiliary, preserving the three-component score used by earlier versions. This makes the retrieval unit larger than a minimal SM-2 item.
 
 - An exact independent answer receives quality `q = 5`. Correct fields with at most one typo in each principal part receive `q = 4`. Any wrong or empty form, or an incorrect auxiliary, receives `q = 1`.
 - Successful reviews use intervals of 1 day, 6 days, then `ceil(previous interval × previous ease factor)`. The ease factor follows the SM-2 formula with a minimum of 1.3. The app caps intervals at 365 days.

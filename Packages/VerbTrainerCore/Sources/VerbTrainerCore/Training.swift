@@ -83,7 +83,8 @@ public enum Training {
         else { return }
         guard kind != "answer" || s.draft.complete else {
             throw TrainerError.invalid(
-                L10n.text("Fill in both forms and choose haben or sein. If you cannot recall them, tap I don't know."))
+                L10n.text(
+                    "Fill in Präteritum and Partizip II with hat or ist. If you cannot recall them, tap I don't know."))
         }
         let entry = Attempt(
             id: verb.id, answers: s.draft, result: Grading.grade(verb, s.draft),

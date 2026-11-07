@@ -9,7 +9,7 @@ Native SwiftUI for iPhone (iOS 18+) and Mac (macOS 15+).
 German learners practising short offline blocks with an English, German or Russian interface selected by the system.
 
 ## Product Purpose
-Recall two principal parts and a context-specific auxiliary before seeing answers.
+Recall Präteritum and enter the context-specific auxiliary together with Partizip II before seeing answers.
 
 ## Stack
 SwiftUI app with a local dependency-free Swift package; versioned atomic JSON storage.

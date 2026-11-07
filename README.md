@@ -6,7 +6,7 @@ An offline German verb trainer for iPhone and Mac, built with SwiftUI and a loca
 
 ## Features
 
-- 60 German verbs in A1, A2 and B1 study groups, with Präteritum, Partizip II and context-specific haben/sein practice.
+- 60 German verbs in A1, A2 and B1 study groups, with Präteritum and a combined auxiliary + Partizip II field. Enter forms such as `hat gemacht` or `ist gegangen`. Infinitive auxiliaries (`haben` / `sein`) are also accepted.
 - Sessions of up to 10 verbs, saved drafts and session recovery after restarting the app.
 - Spaced repetition, original-answer history and assistance tracking.
 - A searchable verb table with examples and usage rules.

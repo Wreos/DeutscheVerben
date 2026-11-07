@@ -27,10 +27,10 @@
 "Case, extra spaces and trailing . ! ? do not affect grading. You can use ae / oe / ue for ä / ö / ü and ss for ß." = "Регистр, лишние пробелы и конечные . ! ? не влияют на проверку. Можно писать ae / oe / ue вместо ä / ö / ü и ss вместо ß.";
 "Check" = "Проверить";
 "Check review dates in Progress or come back tomorrow." = "Посмотри даты повторений в «Прогрессе» или вернись завтра.";
-"Choose" = "Выбери";
 "Choose backup to restore" = "Выбрать копию для восстановления";
 "Choose file and merge" = "Выбрать файл и объединить";
 "Close to consolidation" = "Близко к закреплению";
+"Combined answer does not match its components" = "Объединённый ответ не соответствует его частям";
 "Complete your first session to see answers and examples here." = "Пройди первый подход — здесь появятся ответы и примеры.";
 "Conflicting assistance history" = "Конфликт истории помощи";
 "Conflicting original answer. Keep both exports separately." = "Конфликт исходного ответа. Сохраните оба экспорта отдельно.";
@@ -57,7 +57,7 @@
 "Export original file" = "Экспортировать исходный файл";
 "Extended · B1" = "Расширение · B1";
 "File exceeds 20 MB" = "Файл больше 20 МБ";
-"Fill in both forms and choose haben or sein. If you cannot recall them, tap I don't know." = "Заполни две формы и выбери haben или sein. Если не помнишь — нажми «Не знаю».";
+"Fill in Präteritum and Partizip II with hat or ist. If you cannot recall them, tap I don't know." = "Заполни Präteritum и Partizip II вместе с hat или ist. Если не помнишь — нажми «Не знаю».";
 "Follow the review schedule in Progress. Successes increase intervals. After an error, the verb returns tomorrow. Mistakes and due verbs come first." = "Повторяй по расписанию в «Прогрессе». После успехов интервалы растут, после ошибки глагол возвращается на завтра. Первыми идут ошибки и глаголы, которые пора повторить.";
 "For ich / er / sie / es, without the pronoun" = "Для ich / er / sie / es, без местоимения";
 "Forms already shown" = "Формы уже были показаны";
@@ -72,6 +72,7 @@
 "Import complete. History merged while preserving existing answers." = "Импорт завершён. История объединена без удаления ответов.";
 "Import result" = "Результат импорта";
 "Import stopped: %@" = "Импорт остановлен: %@";
+"Include hat or ist before Partizip II. You can also use haben or sein." = "Перед Partizip II впиши hat или ist. Можно также использовать haben или sein.";
 "Incorrect · 0/10" = "Неверно · 0/10";
 "Independent attempts: %@ · Assisted: %@" = "Самостоятельных попыток: %@ · С опорой: %@";
 "Independent: %@ · Assisted: %@" = "Самостоятельно: %@ · С опорой: %@";
@@ -98,12 +99,11 @@
 "No verbs in this group yet." = "В этой группе пока нет глаголов.";
 "Not studied" = "Не изучен";
 "OK" = "Понятно";
-"One letter error earns 9/10 for a form. More than one earns 0/10. The overall score averages both forms and the haben / sein choice." = "Одна ошибка в букве — 9/10 за форму, больше одной — 0/10. Общий балл — среднее двух форм и выбора haben / sein.";
+"One letter error earns 9/10 for a verb form. More than one earns 0/10. The auxiliary is checked separately. The overall score averages Präteritum, Partizip II and the auxiliary." = "Одна ошибка в букве — 9/10 за форму глагола, больше одной — 0/10. Вспомогательный глагол проверяется отдельно. Общий балл — среднее Präteritum, Partizip II и вспомогательного глагола.";
 "Open context and example" = "Открыть контекст и пример";
 "Opening answers counts as assistance." = "Открытие ответов учитывается как подсказка.";
 "Original answer does not match the draft" = "Исходный ответ расходится с черновиком";
 "Original answer history" = "История исходных ответов";
-"Participle only, without haben / sein" = "Только причастие, без haben / sein";
 "Paused sessions" = "Отложенные подходы";
 "Practice" = "Тренировка";
 "Practise with assistance" = "Повторить с опорой";
@@ -111,7 +111,7 @@
 "Progress" = "Прогресс";
 "Progress is stored on this device. To transfer it between iPhone and Mac, export JSON and import it on the other device." = "Прогресс хранится на этом устройстве. Для переноса между iPhone и Mac экспортируй JSON и импортируй его на другом устройстве.";
 "Ready for ten verbs?" = "Начнём с десяти?";
-"Recall Präteritum for ich / er / sie / es without the pronoun, Partizip II and haben or sein for the given context." = "Вспомни Präteritum для ich / er / sie / es без местоимения, Partizip II и haben или sein для указанного контекста.";
+"Recall Präteritum for ich / er / sie / es without the pronoun. In the Partizip II field, enter hat or ist followed by the participle for the given context. Haben and sein are also accepted." = "Вспомни Präteritum для ich / er / sie / es без местоимения. В поле Partizip II впиши hat или ist вместе с причастием для указанного контекста. Haben и sein тоже принимаются.";
 "Recall independently first" = "Нужно вспомнить без подсказки";
 "Reference" = "Таблица";
 "Repeat" = "Повторить";
@@ -145,12 +145,12 @@
 "View summary" = "Посмотреть итог";
 "Viewing forms counts as assistance." = "Просмотр форм считается подсказкой.";
 "You can use ae / oe / ue for ä / ö / ü and ss for ß." = "Можно писать ae / oe / ue вместо ä / ö / ü и ss вместо ß.";
-"Your Partizip II form" = "Твоя форма Partizip II";
 "Your Präteritum form" = "Твоя форма Präteritum";
 "Your answer: %@" = "Твой ответ: %@";
 "Your current history will be preserved. Conflicting records will stop the import." = "Текущая история будет сохранена. Конфликтующие записи не заменяются.";
 "Your current progress will be replaced after creating a backup. Use Import to add results to your current history." = "Текущий прогресс будет заменён. Перед восстановлением сохраним его резервную копию. Для добавления результатов без замены используй импорт.";
 "assisted" = "с опорой";
+"hat / ist + Partizip II" = "hat / ist + Partizip II";
 "not filled in" = "не заполнено";
 "verb.anfangen.context" = "начало действия";
 "verb.anfangen.meaning" = "начинать";

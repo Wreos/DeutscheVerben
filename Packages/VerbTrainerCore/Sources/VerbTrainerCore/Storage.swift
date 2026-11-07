@@ -28,6 +28,7 @@ public enum StateCodec {
             try require(
                 ids.contains(a.id) && !a.sessionId.isEmpty && dateValid(a.at)
                     && ["answer", "unknown", "reveal"].contains(a.kind), L10n.text("Invalid answer record"))
+            try require(a.answers.hasConsistentPerfect, L10n.text("Combined answer does not match its components"))
             guard let verb = verbs.first(where: { $0.id == a.id }) else { return }
             try require(
                 a.result == Grading.grade(verb, a.answers),
@@ -52,7 +53,9 @@ public enum StateCodec {
                     && s.index >= 0 && s.index <= s.queue.count
                     && (s.results.count == s.index || (s.index < s.queue.count && s.results.count == s.index + 1)),
                 L10n.text("Invalid session"))
-            try require(["", "haben", "sein"].contains(s.draft.aux), L10n.text("Invalid draft"))
+            try require(
+                ["", "haben", "sein"].contains(s.draft.aux) && s.draft.hasConsistentPerfect,
+                L10n.text("Invalid draft"))
             for (i, a) in s.results.enumerated() {
                 try checkAttempt(a)
                 try require(

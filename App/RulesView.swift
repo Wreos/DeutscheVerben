@@ -5,7 +5,7 @@ struct RulesView: View {
     var body: some View {
         Text(
             L10n.text(
-                "Recall Präteritum for ich / er / sie / es without the pronoun, Partizip II and haben or sein for the given context."
+                "Recall Präteritum for ich / er / sie / es without the pronoun. In the Partizip II field, enter hat or ist followed by the participle for the given context. Haben and sein are also accepted."
             )
         )
         Text(
@@ -15,7 +15,7 @@ struct RulesView: View {
         )
         Text(
             L10n.text(
-                "One letter error earns 9/10 for a form. More than one earns 0/10. The overall score averages both forms and the haben / sein choice."
+                "One letter error earns 9/10 for a verb form. More than one earns 0/10. The auxiliary is checked separately. The overall score averages Präteritum, Partizip II and the auxiliary."
             )
         )
         Text(

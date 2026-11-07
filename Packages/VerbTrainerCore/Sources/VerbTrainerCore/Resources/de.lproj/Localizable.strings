@@ -27,10 +27,10 @@
 "Case, extra spaces and trailing . ! ? do not affect grading. You can use ae / oe / ue for ä / ö / ü and ss for ß." = "Groß- und Kleinschreibung, zusätzliche Leerzeichen und abschließende . ! ? beeinflussen die Bewertung nicht. Du kannst ae / oe / ue für ä / ö / ü und ss für ß schreiben.";
 "Check" = "Prüfen";
 "Check review dates in Progress or come back tomorrow." = "Sieh dir die Wiederholungstermine unter Fortschritt an oder komm morgen wieder.";
-"Choose" = "Auswählen";
 "Choose backup to restore" = "Sicherung zum Wiederherstellen wählen";
 "Choose file and merge" = "Datei wählen und zusammenführen";
 "Close to consolidation" = "Fast gefestigt";
+"Combined answer does not match its components" = "Die kombinierte Antwort stimmt nicht mit ihren Bestandteilen überein";
 "Complete your first session to see answers and examples here." = "Schließe deine erste Runde ab. Hier erscheinen dann Antworten und Beispiele.";
 "Conflicting assistance history" = "Widersprüchlicher Hilfeverlauf";
 "Conflicting original answer. Keep both exports separately." = "Widersprüchliche ursprüngliche Antwort. Bewahre beide Exporte getrennt auf.";
@@ -57,7 +57,7 @@
 "Export original file" = "Originaldatei exportieren";
 "Extended · B1" = "Erweiterung · B1";
 "File exceeds 20 MB" = "Datei ist größer als 20 MB";
-"Fill in both forms and choose haben or sein. If you cannot recall them, tap I don't know." = "Fülle beide Formen aus und wähle haben oder sein. Wenn du sie nicht weißt, tippe auf Ich weiß es nicht.";
+"Fill in Präteritum and Partizip II with hat or ist. If you cannot recall them, tap I don't know." = "Fülle Präteritum und Partizip II mit hat oder ist aus. Wenn du sie nicht weißt, tippe auf Ich weiß es nicht.";
 "Follow the review schedule in Progress. Successes increase intervals. After an error, the verb returns tomorrow. Mistakes and due verbs come first." = "Folge dem Wiederholungsplan unter Fortschritt. Erfolge verlängern die Intervalle. Nach einem Fehler kommt das Verb morgen wieder. Fehler und fällige Verben kommen zuerst.";
 "For ich / er / sie / es, without the pronoun" = "Für ich / er / sie / es, ohne Pronomen";
 "Forms already shown" = "Formen bereits angezeigt";
@@ -72,6 +72,7 @@
 "Import complete. History merged while preserving existing answers." = "Import abgeschlossen. Der Verlauf wurde unter Beibehaltung vorhandener Antworten zusammengeführt.";
 "Import result" = "Importergebnis";
 "Import stopped: %@" = "Import gestoppt: %@";
+"Include hat or ist before Partizip II. You can also use haben or sein." = "Schreibe hat oder ist vor das Partizip II. Du kannst auch haben oder sein verwenden.";
 "Incorrect · 0/10" = "Falsch · 0/10";
 "Independent attempts: %@ · Assisted: %@" = "Selbstständige Versuche: %@ · Mit Hilfe: %@";
 "Independent: %@ · Assisted: %@" = "Selbstständig: %@ · Mit Hilfe: %@";
@@ -98,12 +99,11 @@
 "No verbs in this group yet." = "Noch keine Verben in dieser Gruppe.";
 "Not studied" = "Noch nicht gelernt";
 "OK" = "OK";
-"One letter error earns 9/10 for a form. More than one earns 0/10. The overall score averages both forms and the haben / sein choice." = "Ein Buchstabenfehler ergibt 9/10 für eine Form, mehr als einer 0/10. Die Gesamtpunktzahl ist der Durchschnitt der beiden Formen und der Wahl von haben / sein.";
+"One letter error earns 9/10 for a verb form. More than one earns 0/10. The auxiliary is checked separately. The overall score averages Präteritum, Partizip II and the auxiliary." = "Ein Buchstabenfehler ergibt 9/10 für eine Verbform, mehr als einer 0/10. Das Hilfsverb wird getrennt geprüft. Die Gesamtpunktzahl ist der Durchschnitt von Präteritum, Partizip II und Hilfsverb.";
 "Open context and example" = "Kontext und Beispiel öffnen";
 "Opening answers counts as assistance." = "Das Öffnen von Antworten zählt als Hilfe.";
 "Original answer does not match the draft" = "Ursprüngliche Antwort stimmt nicht mit dem Entwurf überein";
 "Original answer history" = "Verlauf der ursprünglichen Antworten";
-"Participle only, without haben / sein" = "Nur das Partizip, ohne haben / sein";
 "Paused sessions" = "Pausierte Runden";
 "Practice" = "Training";
 "Practise with assistance" = "Mit Hilfe üben";
@@ -111,7 +111,7 @@
 "Progress" = "Fortschritt";
 "Progress is stored on this device. To transfer it between iPhone and Mac, export JSON and import it on the other device." = "Der Fortschritt wird auf diesem Gerät gespeichert. Exportiere JSON und importiere die Datei auf dem anderen Gerät, um ihn zwischen iPhone und Mac zu übertragen.";
 "Ready for ten verbs?" = "Bereit für zehn Verben?";
-"Recall Präteritum for ich / er / sie / es without the pronoun, Partizip II and haben or sein for the given context." = "Nenne das Präteritum für ich / er / sie / es ohne Pronomen, das Partizip II und haben oder sein für den angegebenen Kontext.";
+"Recall Präteritum for ich / er / sie / es without the pronoun. In the Partizip II field, enter hat or ist followed by the participle for the given context. Haben and sein are also accepted." = "Nenne das Präteritum für ich / er / sie / es ohne Pronomen. Trage im Feld Partizip II hat oder ist zusammen mit dem Partizip für den angegebenen Kontext ein. Haben und sein werden ebenfalls akzeptiert.";
 "Recall independently first" = "Zuerst selbstständig abrufen";
 "Reference" = "Tabelle";
 "Repeat" = "Wiederholen";
@@ -145,12 +145,12 @@
 "View summary" = "Ergebnis ansehen";
 "Viewing forms counts as assistance." = "Das Anzeigen der Formen zählt als Hilfe.";
 "You can use ae / oe / ue for ä / ö / ü and ss for ß." = "Du kannst ae / oe / ue für ä / ö / ü und ss für ß schreiben.";
-"Your Partizip II form" = "Deine Partizip-II-Form";
 "Your Präteritum form" = "Deine Präteritumform";
 "Your answer: %@" = "Deine Antwort: %@";
 "Your current history will be preserved. Conflicting records will stop the import." = "Dein bisheriger Verlauf bleibt erhalten. Bei widersprüchlichen Einträgen wird der Import gestoppt.";
 "Your current progress will be replaced after creating a backup. Use Import to add results to your current history." = "Dein aktueller Fortschritt wird nach dem Erstellen einer Sicherung ersetzt. Nutze den Import, um Ergebnisse zum bisherigen Verlauf hinzuzufügen.";
 "assisted" = "mit Hilfe";
+"hat / ist + Partizip II" = "hat / ist + Partizip II";
 "not filled in" = "nicht ausgefüllt";
 "verb.anfangen.context" = "Beginn einer Handlung";
 "verb.anfangen.meaning" = "beginnen";

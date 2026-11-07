@@ -4,15 +4,59 @@ public struct Answers: Codable, Equatable, Sendable {
     public var past = ""
     public var participle = ""
     public var aux = ""
+    public private(set) var perfect: String?
+
+    /// The combined field preserves the exact input while retaining legacy grading components.
+    public var perfectInput: String {
+        get {
+            if let perfect { return perfect }
+            let auxiliary = aux == "sein" ? "ist" : aux == "haben" ? "hat" : aux
+            return [auxiliary, participle].filter { !$0.isEmpty }.joined(separator: " ")
+        }
+        set {
+            perfect = newValue
+            let components = Self.splitPerfect(newValue)
+            participle = components.participle
+            aux = components.aux
+        }
+    }
+
+    var hasConsistentPerfect: Bool {
+        guard let perfect else { return true }
+        let components = Self.splitPerfect(perfect)
+        return participle == components.participle && aux == components.aux
+    }
+
+    private static func splitPerfect(_ input: String) -> (participle: String, aux: String) {
+        let words = input.split(whereSeparator: \.isWhitespace)
+        guard let first = words.first else { return ("", "") }
+        let auxiliary: String
+        switch Grading.normalize(String(first)) {
+        case "hat", "haben": auxiliary = "haben"
+        case "ist", "sein": auxiliary = "sein"
+        default: auxiliary = ""
+        }
+        let hasPrefix = !auxiliary.isEmpty || words.count > 1
+        let participle = (hasPrefix ? words.dropFirst() : words[...]).joined(separator: " ")
+        return (participle, auxiliary)
+    }
     public init(past: String = "", participle: String = "", aux: String = "") {
         self.past = past
         self.participle = participle
         self.aux = aux
     }
-    public var isEmpty: Bool { past.isEmpty && participle.isEmpty && aux.isEmpty }
+    public init(past: String = "", perfect: String) {
+        self.past = past
+        self.perfectInput = perfect
+    }
+
+    public var isEmpty: Bool { past.isEmpty && participle.isEmpty && aux.isEmpty && (perfect?.isEmpty ?? true) }
     public var complete: Bool {
-        !past.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-            && !participle.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !aux.isEmpty
+        let hasPast = !past.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        if let perfect {
+            return hasPast && !perfect.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        }
+        return hasPast && !participle.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !aux.isEmpty
     }
 }
 public struct FormResult: Codable, Equatable, Sendable {

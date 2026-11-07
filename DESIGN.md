@@ -84,7 +84,7 @@ The app defines no custom shadows or elevation scale. System tab/navigation surf
 
 ## Shapes
 
-Use system bordered and bordered-prominent buttons, rounded-border text fields, segmented auxiliary selection, native lists, forms, and disclosure groups. The app defines no reusable corner-radius scale or custom card component. Do not freeze the current OS’s capsule radius, material, or control outlines into new tokens.
+Use system bordered and bordered-prominent buttons, rounded-border text fields, native lists, forms, and disclosure groups. The app defines no reusable corner-radius scale or custom card component. Do not freeze the current OS’s capsule radius, material, or control outlines into new tokens.
 
 ## Components
 
@@ -96,7 +96,7 @@ Four `TabView` destinations, each with a `NavigationStack`: **Practice**, **Refe
 
 Primary actions use `.borderedProminent` and `.controlSize(.large)` with explicit appearance-specific label foregrounds. Approach/help actions use `.bordered` and large controls. Other list/form actions retain native defaults. Status is conveyed in titles and text, not just tint.
 
-Präteritum and Partizip II have persistent visible labels and instruction text; their text fields use `.roundedBorder`, disable autocorrection, and disable iOS autocapitalization. Perfekt auxiliary selection is a labelled segmented picker with “Choose”, “haben”, and “sein”. Checking disables the answer controls and exposes inline feedback. Focus moves past → participle → auxiliary. Command-Return checks; Return advances a checked answer.
+Präteritum and Partizip II have persistent visible labels and instruction text; their text fields use `.roundedBorder`, disable autocorrection, and disable iOS autocapitalization. The Partizip II field includes the auxiliary, entered as hat/ist or haben/sein followed by the participle. Checking disables the answer controls and exposes inline feedback. Focus moves from Präteritum to the combined Partizip II field. Command-Return checks; Return advances a checked answer.
 
 ### Feedback and history
 
