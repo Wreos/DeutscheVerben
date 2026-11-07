@@ -1,0 +1,5202 @@
+{
+  "version": 1,
+  "nativeVersion": 1,
+  "progress": {
+    "sein": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "haben": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "werden": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "gehen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "kommen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "fahren": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "sehen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "essen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "trinken": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "sprechen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "lesen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "schlafen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "nehmen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "geben": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "finden": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "bleiben": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "schreiben": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "helfen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "wissen": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "tun": {
+      "attempts": 4,
+      "passed": 4,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-09-25T10:00:00Z"
+    },
+    "anfangen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "anrufen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "aufstehen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "verstehen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "bekommen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "bringen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "denken": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "kennen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "heißen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "laufen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "fliegen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "schwimmen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "tragen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "treffen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "vergessen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "verlieren": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "gefallen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "einladen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "schließen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "singen": {
+      "attempts": 3,
+      "passed": 3,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-10-08T10:00:00Z"
+    },
+    "beginnen": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "entscheiden": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "empfehlen": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "erhalten": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "gelingen": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "geschehen": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "bieten": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "bitten": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "leihen": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "vergleichen": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-01T10:00:00Z"
+    },
+    "versprechen": {
+      "attempts": 1,
+      "passed": 0,
+      "assisted": 0,
+      "lastPassed": false,
+      "lastAt": "2026-11-03T10:00:00Z"
+    }
+  },
+  "history": [
+    {
+      "id": "sein",
+      "answers": {
+        "past": "war",
+        "participle": "gewesen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "war"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "haben",
+      "answers": {
+        "past": "hatte",
+        "participle": "gehabt",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "hatte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gehabt"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "werden",
+      "answers": {
+        "past": "wurde",
+        "participle": "geworden",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wurde"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geworden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "gehen",
+      "answers": {
+        "past": "ging",
+        "participle": "gegangen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "ging"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "kommen",
+      "answers": {
+        "past": "kam",
+        "participle": "gekommen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "kam"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gekommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "fahren",
+      "answers": {
+        "past": "fuhr",
+        "participle": "gefahren",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fuhr"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefahren"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "sehen",
+      "answers": {
+        "past": "sah",
+        "participle": "gesehen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sah"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesehen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "essen",
+      "answers": {
+        "past": "aß",
+        "participle": "gegessen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "aß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegessen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "trinken",
+      "answers": {
+        "past": "trank",
+        "participle": "getrunken",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "trank"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getrunken"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "sprechen",
+      "answers": {
+        "past": "sprach",
+        "participle": "gesprochen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sprach"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesprochen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "lesen",
+      "answers": {
+        "past": "las",
+        "participle": "gelesen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "las"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "schlafen",
+      "answers": {
+        "past": "schlief",
+        "participle": "geschlafen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schlief"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschlafen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "nehmen",
+      "answers": {
+        "past": "nahm",
+        "participle": "genommen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "nahm"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "genommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "geben",
+      "answers": {
+        "past": "gab",
+        "participle": "gegeben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gab"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegeben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "finden",
+      "answers": {
+        "past": "fand",
+        "participle": "gefunden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fand"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefunden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "bleiben",
+      "answers": {
+        "past": "blieb",
+        "participle": "geblieben",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "blieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geblieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "schreiben",
+      "answers": {
+        "past": "schrieb",
+        "participle": "geschrieben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schrieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschrieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "helfen",
+      "answers": {
+        "past": "half",
+        "participle": "geholfen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "half"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geholfen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "wissen",
+      "answers": {
+        "past": "wusste",
+        "participle": "gewusst",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wusste"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewusst"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "tun",
+      "answers": {
+        "past": "tat",
+        "participle": "getan",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "tat"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getan"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-01T10:00:00Z",
+      "sessionId": "synthetic-2026-09-01"
+    },
+    {
+      "id": "sein",
+      "answers": {
+        "past": "war",
+        "participle": "gewesen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "war"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "haben",
+      "answers": {
+        "past": "hatte",
+        "participle": "gehabt",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "hatte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gehabt"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "werden",
+      "answers": {
+        "past": "wurde",
+        "participle": "geworden",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wurde"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geworden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "gehen",
+      "answers": {
+        "past": "ging",
+        "participle": "gegangen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "ging"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "kommen",
+      "answers": {
+        "past": "kam",
+        "participle": "gekommen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "kam"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gekommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "fahren",
+      "answers": {
+        "past": "fuhr",
+        "participle": "gefahren",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fuhr"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefahren"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "sehen",
+      "answers": {
+        "past": "sah",
+        "participle": "gesehen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sah"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesehen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "essen",
+      "answers": {
+        "past": "aß",
+        "participle": "gegessen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "aß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegessen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "trinken",
+      "answers": {
+        "past": "trank",
+        "participle": "getrunken",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "trank"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getrunken"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "sprechen",
+      "answers": {
+        "past": "sprach",
+        "participle": "gesprochen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sprach"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesprochen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "lesen",
+      "answers": {
+        "past": "las",
+        "participle": "gelesen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "las"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "schlafen",
+      "answers": {
+        "past": "schlief",
+        "participle": "geschlafen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schlief"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschlafen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "nehmen",
+      "answers": {
+        "past": "nahm",
+        "participle": "genommen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "nahm"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "genommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "geben",
+      "answers": {
+        "past": "gab",
+        "participle": "gegeben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gab"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegeben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "finden",
+      "answers": {
+        "past": "fand",
+        "participle": "gefunden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fand"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefunden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "bleiben",
+      "answers": {
+        "past": "blieb",
+        "participle": "geblieben",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "blieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geblieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "schreiben",
+      "answers": {
+        "past": "schrieb",
+        "participle": "geschrieben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schrieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschrieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "helfen",
+      "answers": {
+        "past": "half",
+        "participle": "geholfen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "half"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geholfen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "wissen",
+      "answers": {
+        "past": "wusste",
+        "participle": "gewusst",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wusste"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewusst"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "tun",
+      "answers": {
+        "past": "tat",
+        "participle": "getan",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "tat"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getan"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-02T10:00:00Z",
+      "sessionId": "synthetic-2026-09-02"
+    },
+    {
+      "id": "sein",
+      "answers": {
+        "past": "war",
+        "participle": "gewesen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "war"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "haben",
+      "answers": {
+        "past": "hatte",
+        "participle": "gehabt",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "hatte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gehabt"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "werden",
+      "answers": {
+        "past": "wurde",
+        "participle": "geworden",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wurde"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geworden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "gehen",
+      "answers": {
+        "past": "ging",
+        "participle": "gegangen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "ging"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "kommen",
+      "answers": {
+        "past": "kam",
+        "participle": "gekommen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "kam"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gekommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "fahren",
+      "answers": {
+        "past": "fuhr",
+        "participle": "gefahren",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fuhr"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefahren"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "sehen",
+      "answers": {
+        "past": "sah",
+        "participle": "gesehen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sah"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesehen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "essen",
+      "answers": {
+        "past": "aß",
+        "participle": "gegessen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "aß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegessen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "trinken",
+      "answers": {
+        "past": "trank",
+        "participle": "getrunken",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "trank"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getrunken"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "sprechen",
+      "answers": {
+        "past": "sprach",
+        "participle": "gesprochen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sprach"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesprochen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "lesen",
+      "answers": {
+        "past": "las",
+        "participle": "gelesen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "las"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "schlafen",
+      "answers": {
+        "past": "schlief",
+        "participle": "geschlafen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schlief"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschlafen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "nehmen",
+      "answers": {
+        "past": "nahm",
+        "participle": "genommen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "nahm"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "genommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "geben",
+      "answers": {
+        "past": "gab",
+        "participle": "gegeben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gab"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegeben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "finden",
+      "answers": {
+        "past": "fand",
+        "participle": "gefunden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fand"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefunden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "bleiben",
+      "answers": {
+        "past": "blieb",
+        "participle": "geblieben",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "blieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geblieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "schreiben",
+      "answers": {
+        "past": "schrieb",
+        "participle": "geschrieben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schrieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschrieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "helfen",
+      "answers": {
+        "past": "half",
+        "participle": "geholfen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "half"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geholfen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "wissen",
+      "answers": {
+        "past": "wusste",
+        "participle": "gewusst",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wusste"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewusst"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "tun",
+      "answers": {
+        "past": "tat",
+        "participle": "getan",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "tat"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getan"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-08T10:00:00Z",
+      "sessionId": "synthetic-2026-09-08"
+    },
+    {
+      "id": "sein",
+      "answers": {
+        "past": "war",
+        "participle": "gewesen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "war"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "haben",
+      "answers": {
+        "past": "hatte",
+        "participle": "gehabt",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "hatte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gehabt"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "werden",
+      "answers": {
+        "past": "wurde",
+        "participle": "geworden",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wurde"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geworden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "gehen",
+      "answers": {
+        "past": "ging",
+        "participle": "gegangen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "ging"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "kommen",
+      "answers": {
+        "past": "kam",
+        "participle": "gekommen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "kam"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gekommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "fahren",
+      "answers": {
+        "past": "fuhr",
+        "participle": "gefahren",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fuhr"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefahren"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "sehen",
+      "answers": {
+        "past": "sah",
+        "participle": "gesehen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sah"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesehen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "essen",
+      "answers": {
+        "past": "aß",
+        "participle": "gegessen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "aß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegessen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "trinken",
+      "answers": {
+        "past": "trank",
+        "participle": "getrunken",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "trank"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getrunken"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "sprechen",
+      "answers": {
+        "past": "sprach",
+        "participle": "gesprochen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sprach"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesprochen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "lesen",
+      "answers": {
+        "past": "las",
+        "participle": "gelesen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "las"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelesen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "schlafen",
+      "answers": {
+        "past": "schlief",
+        "participle": "geschlafen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schlief"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschlafen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "nehmen",
+      "answers": {
+        "past": "nahm",
+        "participle": "genommen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "nahm"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "genommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "geben",
+      "answers": {
+        "past": "gab",
+        "participle": "gegeben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gab"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegeben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "finden",
+      "answers": {
+        "past": "fand",
+        "participle": "gefunden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fand"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefunden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "bleiben",
+      "answers": {
+        "past": "blieb",
+        "participle": "geblieben",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "blieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geblieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "schreiben",
+      "answers": {
+        "past": "schrieb",
+        "participle": "geschrieben",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schrieb"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschrieben"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "helfen",
+      "answers": {
+        "past": "half",
+        "participle": "geholfen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "half"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geholfen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "wissen",
+      "answers": {
+        "past": "wusste",
+        "participle": "gewusst",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "wusste"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gewusst"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "tun",
+      "answers": {
+        "past": "tat",
+        "participle": "getan",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "tat"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getan"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-09-25T10:00:00Z",
+      "sessionId": "synthetic-2026-09-25"
+    },
+    {
+      "id": "anfangen",
+      "answers": {
+        "past": "fing an",
+        "participle": "angefangen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fing an"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "angefangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "anrufen",
+      "answers": {
+        "past": "rief an",
+        "participle": "angerufen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "rief an"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "angerufen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "aufstehen",
+      "answers": {
+        "past": "stand auf",
+        "participle": "aufgestanden",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "stand auf"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "aufgestanden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "verstehen",
+      "answers": {
+        "past": "verstand",
+        "participle": "verstanden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verstand"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verstanden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "bekommen",
+      "answers": {
+        "past": "bekam",
+        "participle": "bekommen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bekam"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bekommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "bringen",
+      "answers": {
+        "past": "brachte",
+        "participle": "gebracht",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "brachte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gebracht"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "denken",
+      "answers": {
+        "past": "dachte",
+        "participle": "gedacht",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "dachte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gedacht"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "kennen",
+      "answers": {
+        "past": "kannte",
+        "participle": "gekannt",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "kannte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gekannt"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "heißen",
+      "answers": {
+        "past": "hieß",
+        "participle": "geheißen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "hieß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geheißen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "laufen",
+      "answers": {
+        "past": "lief",
+        "participle": "gelaufen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "lief"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelaufen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "fliegen",
+      "answers": {
+        "past": "flog",
+        "participle": "geflogen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "flog"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geflogen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "schwimmen",
+      "answers": {
+        "past": "schwamm",
+        "participle": "geschwommen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schwamm"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschwommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "tragen",
+      "answers": {
+        "past": "trug",
+        "participle": "getragen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "trug"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getragen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "treffen",
+      "answers": {
+        "past": "traf",
+        "participle": "getroffen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "traf"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getroffen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "vergessen",
+      "answers": {
+        "past": "vergaß",
+        "participle": "vergessen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "vergaß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "vergessen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "verlieren",
+      "answers": {
+        "past": "verlor",
+        "participle": "verloren",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verlor"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verloren"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "gefallen",
+      "answers": {
+        "past": "gefiel",
+        "participle": "gefallen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefiel"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefallen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "einladen",
+      "answers": {
+        "past": "lud ein",
+        "participle": "eingeladen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "lud ein"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "eingeladen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "schließen",
+      "answers": {
+        "past": "schloss",
+        "participle": "geschlossen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schloss"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschlossen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "singen",
+      "answers": {
+        "past": "sang",
+        "participle": "gesungen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sang"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesungen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-01T10:00:00Z",
+      "sessionId": "synthetic-2026-10-01"
+    },
+    {
+      "id": "anfangen",
+      "answers": {
+        "past": "fing an",
+        "participle": "angefangen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fing an"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "angefangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "anrufen",
+      "answers": {
+        "past": "rief an",
+        "participle": "angerufen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "rief an"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "angerufen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "aufstehen",
+      "answers": {
+        "past": "stand auf",
+        "participle": "aufgestanden",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "stand auf"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "aufgestanden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "verstehen",
+      "answers": {
+        "past": "verstand",
+        "participle": "verstanden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verstand"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verstanden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "bekommen",
+      "answers": {
+        "past": "bekam",
+        "participle": "bekommen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bekam"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bekommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "bringen",
+      "answers": {
+        "past": "brachte",
+        "participle": "gebracht",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "brachte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gebracht"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "denken",
+      "answers": {
+        "past": "dachte",
+        "participle": "gedacht",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "dachte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gedacht"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "kennen",
+      "answers": {
+        "past": "kannte",
+        "participle": "gekannt",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "kannte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gekannt"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "heißen",
+      "answers": {
+        "past": "hieß",
+        "participle": "geheißen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "hieß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geheißen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "laufen",
+      "answers": {
+        "past": "lief",
+        "participle": "gelaufen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "lief"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelaufen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "fliegen",
+      "answers": {
+        "past": "flog",
+        "participle": "geflogen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "flog"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geflogen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "schwimmen",
+      "answers": {
+        "past": "schwamm",
+        "participle": "geschwommen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schwamm"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschwommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "tragen",
+      "answers": {
+        "past": "trug",
+        "participle": "getragen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "trug"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getragen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "treffen",
+      "answers": {
+        "past": "traf",
+        "participle": "getroffen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "traf"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getroffen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "vergessen",
+      "answers": {
+        "past": "vergaß",
+        "participle": "vergessen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "vergaß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "vergessen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "verlieren",
+      "answers": {
+        "past": "verlor",
+        "participle": "verloren",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verlor"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verloren"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "gefallen",
+      "answers": {
+        "past": "gefiel",
+        "participle": "gefallen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefiel"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefallen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "einladen",
+      "answers": {
+        "past": "lud ein",
+        "participle": "eingeladen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "lud ein"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "eingeladen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "schließen",
+      "answers": {
+        "past": "schloss",
+        "participle": "geschlossen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schloss"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschlossen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "singen",
+      "answers": {
+        "past": "sang",
+        "participle": "gesungen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sang"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesungen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-02T10:00:00Z",
+      "sessionId": "synthetic-2026-10-02"
+    },
+    {
+      "id": "anfangen",
+      "answers": {
+        "past": "fing an",
+        "participle": "angefangen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "fing an"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "angefangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "anrufen",
+      "answers": {
+        "past": "rief an",
+        "participle": "angerufen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "rief an"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "angerufen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "aufstehen",
+      "answers": {
+        "past": "stand auf",
+        "participle": "aufgestanden",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "stand auf"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "aufgestanden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "verstehen",
+      "answers": {
+        "past": "verstand",
+        "participle": "verstanden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verstand"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verstanden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "bekommen",
+      "answers": {
+        "past": "bekam",
+        "participle": "bekommen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bekam"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bekommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "bringen",
+      "answers": {
+        "past": "brachte",
+        "participle": "gebracht",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "brachte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gebracht"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "denken",
+      "answers": {
+        "past": "dachte",
+        "participle": "gedacht",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "dachte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gedacht"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "kennen",
+      "answers": {
+        "past": "kannte",
+        "participle": "gekannt",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "kannte"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gekannt"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "heißen",
+      "answers": {
+        "past": "hieß",
+        "participle": "geheißen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "hieß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geheißen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "laufen",
+      "answers": {
+        "past": "lief",
+        "participle": "gelaufen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "lief"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelaufen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "fliegen",
+      "answers": {
+        "past": "flog",
+        "participle": "geflogen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "flog"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geflogen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "schwimmen",
+      "answers": {
+        "past": "schwamm",
+        "participle": "geschwommen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schwamm"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschwommen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "tragen",
+      "answers": {
+        "past": "trug",
+        "participle": "getragen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "trug"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getragen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "treffen",
+      "answers": {
+        "past": "traf",
+        "participle": "getroffen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "traf"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "getroffen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "vergessen",
+      "answers": {
+        "past": "vergaß",
+        "participle": "vergessen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "vergaß"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "vergessen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "verlieren",
+      "answers": {
+        "past": "verlor",
+        "participle": "verloren",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verlor"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verloren"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "gefallen",
+      "answers": {
+        "past": "gefiel",
+        "participle": "gefallen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefiel"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gefallen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "einladen",
+      "answers": {
+        "past": "lud ein",
+        "participle": "eingeladen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "lud ein"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "eingeladen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "schließen",
+      "answers": {
+        "past": "schloss",
+        "participle": "geschlossen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "schloss"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschlossen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "singen",
+      "answers": {
+        "past": "sang",
+        "participle": "gesungen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sang"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gesungen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-10-08T10:00:00Z",
+      "sessionId": "synthetic-2026-10-08"
+    },
+    {
+      "id": "beginnen",
+      "answers": {
+        "past": "begann",
+        "participle": "begonnen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "begann"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "begonnen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "entscheiden",
+      "answers": {
+        "past": "entschied",
+        "participle": "entschieden",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "entschied"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "entschieden"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "empfehlen",
+      "answers": {
+        "past": "empfahl",
+        "participle": "empfohlen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "empfahl"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "empfohlen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "erhalten",
+      "answers": {
+        "past": "erhielt",
+        "participle": "erhalten",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "erhielt"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "erhalten"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "gelingen",
+      "answers": {
+        "past": "gelang",
+        "participle": "gelungen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelang"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gelungen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "geschehen",
+      "answers": {
+        "past": "geschah",
+        "participle": "geschehen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschah"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geschehen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "bieten",
+      "answers": {
+        "past": "bot",
+        "participle": "geboten",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bot"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geboten"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "bitten",
+      "answers": {
+        "past": "bat",
+        "participle": "gebeten",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "bat"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gebeten"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "leihen",
+      "answers": {
+        "past": "lieh",
+        "participle": "geliehen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "lieh"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "geliehen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "vergleichen",
+      "answers": {
+        "past": "verglich",
+        "participle": "verglichen",
+        "aux": "haben"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verglich"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "verglichen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "haben"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-01T10:00:00Z",
+      "sessionId": "synthetic-2026-11-01"
+    },
+    {
+      "id": "versprechen",
+      "answers": {
+        "past": "",
+        "participle": "",
+        "aux": ""
+      },
+      "result": {
+        "past": {
+          "status": "wrong",
+          "score": 0,
+          "expected": "versprach"
+        },
+        "participle": {
+          "status": "wrong",
+          "score": 0,
+          "expected": "versprochen"
+        },
+        "aux": {
+          "status": "wrong",
+          "score": 0,
+          "expected": "haben"
+        },
+        "score": 0,
+        "exact": false,
+        "passed": false
+      },
+      "assisted": false,
+      "kind": "unknown",
+      "at": "2026-11-03T10:00:00Z",
+      "sessionId": "synthetic-failure"
+    }
+  ],
+  "session": null,
+  "paused": [],
+  "exposures": {},
+  "helpEvents": [],
+  "level": "all"
+}

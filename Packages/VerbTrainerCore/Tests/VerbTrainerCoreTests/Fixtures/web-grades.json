@@ -1,0 +1,8430 @@
+[
+  {
+    "id": "sein",
+    "answers": {
+      "past": "war",
+      "participle": "gewesen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "war"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "sein",
+    "answers": {
+      "past": "WAR.",
+      "participle": "gewesen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "war"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "sein",
+    "answers": {
+      "past": "warx",
+      "participle": "gewesen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "war"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "sein",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gewesen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "war"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "sein",
+    "answers": {
+      "past": "",
+      "participle": "gewesen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "war"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "haben",
+    "answers": {
+      "past": "hatte",
+      "participle": "gehabt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "hatte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehabt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "haben",
+    "answers": {
+      "past": "HATTE.",
+      "participle": "gehabt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "hatte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehabt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "haben",
+    "answers": {
+      "past": "hattex",
+      "participle": "gehabt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "hatte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehabt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "haben",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gehabt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "hatte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehabt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "haben",
+    "answers": {
+      "past": "",
+      "participle": "gehabt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "hatte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehabt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "werden",
+    "answers": {
+      "past": "wurde",
+      "participle": "geworden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "wurde"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geworden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "werden",
+    "answers": {
+      "past": "WURDE.",
+      "participle": "geworden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "wurde"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geworden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "werden",
+    "answers": {
+      "past": "wurdex",
+      "participle": "geworden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "wurde"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geworden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "werden",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geworden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "wurde"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geworden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "werden",
+    "answers": {
+      "past": "",
+      "participle": "geworden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "wurde"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geworden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "gehen",
+    "answers": {
+      "past": "ging",
+      "participle": "gegangen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "ging"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "gehen",
+    "answers": {
+      "past": "GING.",
+      "participle": "gegangen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "ging"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "gehen",
+    "answers": {
+      "past": "gingx",
+      "participle": "gegangen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "ging"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "gehen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gegangen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "ging"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "gehen",
+    "answers": {
+      "past": "",
+      "participle": "gegangen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "ging"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "kommen",
+    "answers": {
+      "past": "kam",
+      "participle": "gekommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "kam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "kommen",
+    "answers": {
+      "past": "KAM.",
+      "participle": "gekommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "kam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "kommen",
+    "answers": {
+      "past": "kamx",
+      "participle": "gekommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "kam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "kommen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gekommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "kam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "kommen",
+    "answers": {
+      "past": "",
+      "participle": "gekommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "kam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "fahren",
+    "answers": {
+      "past": "fuhr",
+      "participle": "gefahren",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fuhr"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefahren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "fahren",
+    "answers": {
+      "past": "FUHR.",
+      "participle": "gefahren",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fuhr"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefahren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "fahren",
+    "answers": {
+      "past": "fuhrx",
+      "participle": "gefahren",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "fuhr"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefahren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "fahren",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gefahren",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fuhr"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefahren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "fahren",
+    "answers": {
+      "past": "",
+      "participle": "gefahren",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fuhr"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefahren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "sehen",
+    "answers": {
+      "past": "sah",
+      "participle": "gesehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "sehen",
+    "answers": {
+      "past": "SAH.",
+      "participle": "gesehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "sehen",
+    "answers": {
+      "past": "sahx",
+      "participle": "gesehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "sah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "sehen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gesehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "sah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "sehen",
+    "answers": {
+      "past": "",
+      "participle": "gesehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "sah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "essen",
+    "answers": {
+      "past": "aß",
+      "participle": "gegessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "aß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "essen",
+    "answers": {
+      "past": "ASS.",
+      "participle": "gegessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "aß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "essen",
+    "answers": {
+      "past": "aßx",
+      "participle": "gegessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "aß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "essen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gegessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "aß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "essen",
+    "answers": {
+      "past": "",
+      "participle": "gegessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "aß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "trinken",
+    "answers": {
+      "past": "trank",
+      "participle": "getrunken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "trank"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getrunken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "trinken",
+    "answers": {
+      "past": "TRANK.",
+      "participle": "getrunken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "trank"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getrunken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "trinken",
+    "answers": {
+      "past": "trankx",
+      "participle": "getrunken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "trank"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getrunken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "trinken",
+    "answers": {
+      "past": "zzzz",
+      "participle": "getrunken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "trank"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getrunken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "trinken",
+    "answers": {
+      "past": "",
+      "participle": "getrunken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "trank"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getrunken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "sprechen",
+    "answers": {
+      "past": "sprach",
+      "participle": "gesprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "sprechen",
+    "answers": {
+      "past": "SPRACH.",
+      "participle": "gesprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "sprechen",
+    "answers": {
+      "past": "sprachx",
+      "participle": "gesprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "sprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "sprechen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gesprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "sprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "sprechen",
+    "answers": {
+      "past": "",
+      "participle": "gesprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "sprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "lesen",
+    "answers": {
+      "past": "las",
+      "participle": "gelesen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "las"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "lesen",
+    "answers": {
+      "past": "LAS.",
+      "participle": "gelesen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "las"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "lesen",
+    "answers": {
+      "past": "lasx",
+      "participle": "gelesen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "las"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "lesen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gelesen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "las"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "lesen",
+    "answers": {
+      "past": "",
+      "participle": "gelesen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "las"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelesen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schlafen",
+    "answers": {
+      "past": "schlief",
+      "participle": "geschlafen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schlief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlafen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schlafen",
+    "answers": {
+      "past": "SCHLIEF.",
+      "participle": "geschlafen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schlief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlafen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schlafen",
+    "answers": {
+      "past": "schliefx",
+      "participle": "geschlafen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "schlief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlafen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "schlafen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geschlafen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schlief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlafen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schlafen",
+    "answers": {
+      "past": "",
+      "participle": "geschlafen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schlief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlafen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "nehmen",
+    "answers": {
+      "past": "nahm",
+      "participle": "genommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "nahm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "nehmen",
+    "answers": {
+      "past": "NAHM.",
+      "participle": "genommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "nahm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "nehmen",
+    "answers": {
+      "past": "nahmx",
+      "participle": "genommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "nahm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "nehmen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "genommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "nahm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "nehmen",
+    "answers": {
+      "past": "",
+      "participle": "genommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "nahm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "geben",
+    "answers": {
+      "past": "gab",
+      "participle": "gegeben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gab"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegeben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "geben",
+    "answers": {
+      "past": "GAB.",
+      "participle": "gegeben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gab"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegeben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "geben",
+    "answers": {
+      "past": "gabx",
+      "participle": "gegeben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "gab"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegeben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "geben",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gegeben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "gab"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegeben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "geben",
+    "answers": {
+      "past": "",
+      "participle": "gegeben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "gab"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gegeben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "finden",
+    "answers": {
+      "past": "fand",
+      "participle": "gefunden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefunden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "finden",
+    "answers": {
+      "past": "FAND.",
+      "participle": "gefunden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefunden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "finden",
+    "answers": {
+      "past": "fandx",
+      "participle": "gefunden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "fand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefunden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "finden",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gefunden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefunden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "finden",
+    "answers": {
+      "past": "",
+      "participle": "gefunden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefunden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bleiben",
+    "answers": {
+      "past": "blieb",
+      "participle": "geblieben",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "blieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geblieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bleiben",
+    "answers": {
+      "past": "BLIEB.",
+      "participle": "geblieben",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "blieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geblieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bleiben",
+    "answers": {
+      "past": "bliebx",
+      "participle": "geblieben",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "blieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geblieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "bleiben",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geblieben",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "blieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geblieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bleiben",
+    "answers": {
+      "past": "",
+      "participle": "geblieben",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "blieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geblieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schreiben",
+    "answers": {
+      "past": "schrieb",
+      "participle": "geschrieben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schrieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschrieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schreiben",
+    "answers": {
+      "past": "SCHRIEB.",
+      "participle": "geschrieben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schrieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschrieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schreiben",
+    "answers": {
+      "past": "schriebx",
+      "participle": "geschrieben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "schrieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschrieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "schreiben",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geschrieben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schrieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschrieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schreiben",
+    "answers": {
+      "past": "",
+      "participle": "geschrieben",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schrieb"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschrieben"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "helfen",
+    "answers": {
+      "past": "half",
+      "participle": "geholfen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "half"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geholfen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "helfen",
+    "answers": {
+      "past": "HALF.",
+      "participle": "geholfen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "half"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geholfen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "helfen",
+    "answers": {
+      "past": "halfx",
+      "participle": "geholfen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "half"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geholfen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "helfen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geholfen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "half"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geholfen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "helfen",
+    "answers": {
+      "past": "",
+      "participle": "geholfen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "half"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geholfen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "wissen",
+    "answers": {
+      "past": "wusste",
+      "participle": "gewusst",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "wusste"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewusst"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "wissen",
+    "answers": {
+      "past": "WUSSTE.",
+      "participle": "gewusst",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "wusste"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewusst"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "wissen",
+    "answers": {
+      "past": "wusstex",
+      "participle": "gewusst",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "wusste"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewusst"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "wissen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gewusst",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "wusste"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewusst"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "wissen",
+    "answers": {
+      "past": "",
+      "participle": "gewusst",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "wusste"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewusst"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "tun",
+    "answers": {
+      "past": "tat",
+      "participle": "getan",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "tat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getan"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "tun",
+    "answers": {
+      "past": "TAT.",
+      "participle": "getan",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "tat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getan"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "tun",
+    "answers": {
+      "past": "tatx",
+      "participle": "getan",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "tat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getan"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "tun",
+    "answers": {
+      "past": "zzzz",
+      "participle": "getan",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "tat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getan"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "tun",
+    "answers": {
+      "past": "",
+      "participle": "getan",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "tat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getan"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "anfangen",
+    "answers": {
+      "past": "fing an",
+      "participle": "angefangen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fing an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angefangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "anfangen",
+    "answers": {
+      "past": "FING AN.",
+      "participle": "angefangen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fing an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angefangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "anfangen",
+    "answers": {
+      "past": "fing anx",
+      "participle": "angefangen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "fing an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angefangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "anfangen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "angefangen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fing an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angefangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "anfangen",
+    "answers": {
+      "past": "",
+      "participle": "angefangen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fing an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angefangen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "anrufen",
+    "answers": {
+      "past": "rief an",
+      "participle": "angerufen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "rief an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angerufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "anrufen",
+    "answers": {
+      "past": "RIEF AN.",
+      "participle": "angerufen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "rief an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angerufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "anrufen",
+    "answers": {
+      "past": "rief anx",
+      "participle": "angerufen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "rief an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angerufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "anrufen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "angerufen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "rief an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angerufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "anrufen",
+    "answers": {
+      "past": "",
+      "participle": "angerufen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "rief an"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "angerufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "aufstehen",
+    "answers": {
+      "past": "stand auf",
+      "participle": "aufgestanden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "stand auf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "aufgestanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "aufstehen",
+    "answers": {
+      "past": "STAND AUF.",
+      "participle": "aufgestanden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "stand auf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "aufgestanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "aufstehen",
+    "answers": {
+      "past": "stand aufx",
+      "participle": "aufgestanden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "stand auf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "aufgestanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "aufstehen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "aufgestanden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "stand auf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "aufgestanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "aufstehen",
+    "answers": {
+      "past": "",
+      "participle": "aufgestanden",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "stand auf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "aufgestanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "verstehen",
+    "answers": {
+      "past": "verstand",
+      "participle": "verstanden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verstand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verstanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "verstehen",
+    "answers": {
+      "past": "VERSTAND.",
+      "participle": "verstanden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verstand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verstanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "verstehen",
+    "answers": {
+      "past": "verstandx",
+      "participle": "verstanden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "verstand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verstanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "verstehen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "verstanden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "verstand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verstanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "verstehen",
+    "answers": {
+      "past": "",
+      "participle": "verstanden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "verstand"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verstanden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bekommen",
+    "answers": {
+      "past": "bekam",
+      "participle": "bekommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bekam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bekommen",
+    "answers": {
+      "past": "BEKAM.",
+      "participle": "bekommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bekam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bekommen",
+    "answers": {
+      "past": "bekamx",
+      "participle": "bekommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "bekam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "bekommen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "bekommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "bekam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bekommen",
+    "answers": {
+      "past": "",
+      "participle": "bekommen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "bekam"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bekommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bringen",
+    "answers": {
+      "past": "brachte",
+      "participle": "gebracht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "brachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebracht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bringen",
+    "answers": {
+      "past": "BRACHTE.",
+      "participle": "gebracht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "brachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebracht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bringen",
+    "answers": {
+      "past": "brachtex",
+      "participle": "gebracht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "brachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebracht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "bringen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gebracht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "brachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebracht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bringen",
+    "answers": {
+      "past": "",
+      "participle": "gebracht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "brachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebracht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "denken",
+    "answers": {
+      "past": "dachte",
+      "participle": "gedacht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "dachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gedacht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "denken",
+    "answers": {
+      "past": "DACHTE.",
+      "participle": "gedacht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "dachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gedacht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "denken",
+    "answers": {
+      "past": "dachtex",
+      "participle": "gedacht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "dachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gedacht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "denken",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gedacht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "dachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gedacht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "denken",
+    "answers": {
+      "past": "",
+      "participle": "gedacht",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "dachte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gedacht"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "kennen",
+    "answers": {
+      "past": "kannte",
+      "participle": "gekannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "kannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "kennen",
+    "answers": {
+      "past": "KANNTE.",
+      "participle": "gekannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "kannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "kennen",
+    "answers": {
+      "past": "kanntex",
+      "participle": "gekannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "kannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "kennen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gekannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "kannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "kennen",
+    "answers": {
+      "past": "",
+      "participle": "gekannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "kannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gekannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "heißen",
+    "answers": {
+      "past": "hieß",
+      "participle": "geheißen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "hieß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geheißen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "heißen",
+    "answers": {
+      "past": "HIESS.",
+      "participle": "geheißen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "hieß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geheißen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "heißen",
+    "answers": {
+      "past": "hießx",
+      "participle": "geheißen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "hieß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geheißen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "heißen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geheißen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "hieß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geheißen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "heißen",
+    "answers": {
+      "past": "",
+      "participle": "geheißen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "hieß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geheißen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "laufen",
+    "answers": {
+      "past": "lief",
+      "participle": "gelaufen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "lief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelaufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "laufen",
+    "answers": {
+      "past": "LIEF.",
+      "participle": "gelaufen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "lief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelaufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "laufen",
+    "answers": {
+      "past": "liefx",
+      "participle": "gelaufen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "lief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelaufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "laufen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gelaufen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "lief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelaufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "laufen",
+    "answers": {
+      "past": "",
+      "participle": "gelaufen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "lief"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelaufen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "fliegen",
+    "answers": {
+      "past": "flog",
+      "participle": "geflogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "flog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geflogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "fliegen",
+    "answers": {
+      "past": "FLOG.",
+      "participle": "geflogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "flog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geflogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "fliegen",
+    "answers": {
+      "past": "flogx",
+      "participle": "geflogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "flog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geflogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "fliegen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geflogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "flog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geflogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "fliegen",
+    "answers": {
+      "past": "",
+      "participle": "geflogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "flog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geflogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schwimmen",
+    "answers": {
+      "past": "schwamm",
+      "participle": "geschwommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schwamm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschwommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schwimmen",
+    "answers": {
+      "past": "SCHWAMM.",
+      "participle": "geschwommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schwamm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschwommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schwimmen",
+    "answers": {
+      "past": "schwammx",
+      "participle": "geschwommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "schwamm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschwommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "schwimmen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geschwommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schwamm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschwommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schwimmen",
+    "answers": {
+      "past": "",
+      "participle": "geschwommen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schwamm"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschwommen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "tragen",
+    "answers": {
+      "past": "trug",
+      "participle": "getragen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "trug"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getragen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "tragen",
+    "answers": {
+      "past": "TRUG.",
+      "participle": "getragen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "trug"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getragen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "tragen",
+    "answers": {
+      "past": "trugx",
+      "participle": "getragen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "trug"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getragen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "tragen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "getragen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "trug"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getragen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "tragen",
+    "answers": {
+      "past": "",
+      "participle": "getragen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "trug"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getragen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "treffen",
+    "answers": {
+      "past": "traf",
+      "participle": "getroffen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "traf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getroffen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "treffen",
+    "answers": {
+      "past": "TRAF.",
+      "participle": "getroffen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "traf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getroffen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "treffen",
+    "answers": {
+      "past": "trafx",
+      "participle": "getroffen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "traf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getroffen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "treffen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "getroffen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "traf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getroffen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "treffen",
+    "answers": {
+      "past": "",
+      "participle": "getroffen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "traf"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "getroffen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "vergessen",
+    "answers": {
+      "past": "vergaß",
+      "participle": "vergessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "vergaß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "vergessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "vergessen",
+    "answers": {
+      "past": "VERGASS.",
+      "participle": "vergessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "vergaß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "vergessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "vergessen",
+    "answers": {
+      "past": "vergaßx",
+      "participle": "vergessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "vergaß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "vergessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "vergessen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "vergessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "vergaß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "vergessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "vergessen",
+    "answers": {
+      "past": "",
+      "participle": "vergessen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "vergaß"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "vergessen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "verlieren",
+    "answers": {
+      "past": "verlor",
+      "participle": "verloren",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verlor"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verloren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "verlieren",
+    "answers": {
+      "past": "VERLOR.",
+      "participle": "verloren",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verlor"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verloren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "verlieren",
+    "answers": {
+      "past": "verlorx",
+      "participle": "verloren",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "verlor"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verloren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "verlieren",
+    "answers": {
+      "past": "zzzz",
+      "participle": "verloren",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "verlor"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verloren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "verlieren",
+    "answers": {
+      "past": "",
+      "participle": "verloren",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "verlor"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verloren"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "gefallen",
+    "answers": {
+      "past": "gefiel",
+      "participle": "gefallen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "gefallen",
+    "answers": {
+      "past": "GEFIEL.",
+      "participle": "gefallen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "gefallen",
+    "answers": {
+      "past": "gefielx",
+      "participle": "gefallen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "gefiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "gefallen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gefallen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "gefiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "gefallen",
+    "answers": {
+      "past": "",
+      "participle": "gefallen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "gefiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "einladen",
+    "answers": {
+      "past": "lud ein",
+      "participle": "eingeladen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "lud ein"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "eingeladen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "einladen",
+    "answers": {
+      "past": "LUD EIN.",
+      "participle": "eingeladen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "lud ein"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "eingeladen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "einladen",
+    "answers": {
+      "past": "lud einx",
+      "participle": "eingeladen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "lud ein"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "eingeladen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "einladen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "eingeladen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "lud ein"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "eingeladen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "einladen",
+    "answers": {
+      "past": "",
+      "participle": "eingeladen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "lud ein"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "eingeladen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schließen",
+    "answers": {
+      "past": "schloss",
+      "participle": "geschlossen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schloss"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlossen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schließen",
+    "answers": {
+      "past": "SCHLOSS.",
+      "participle": "geschlossen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "schloss"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlossen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "schließen",
+    "answers": {
+      "past": "schlossx",
+      "participle": "geschlossen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "schloss"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlossen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "schließen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geschlossen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schloss"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlossen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "schließen",
+    "answers": {
+      "past": "",
+      "participle": "geschlossen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "schloss"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschlossen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "singen",
+    "answers": {
+      "past": "sang",
+      "participle": "gesungen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "singen",
+    "answers": {
+      "past": "SANG.",
+      "participle": "gesungen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "singen",
+    "answers": {
+      "past": "sangx",
+      "participle": "gesungen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "sang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "singen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gesungen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "sang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "singen",
+    "answers": {
+      "past": "",
+      "participle": "gesungen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "sang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gesungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "beginnen",
+    "answers": {
+      "past": "begann",
+      "participle": "begonnen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "begann"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "begonnen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "beginnen",
+    "answers": {
+      "past": "BEGANN.",
+      "participle": "begonnen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "begann"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "begonnen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "beginnen",
+    "answers": {
+      "past": "begannx",
+      "participle": "begonnen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "begann"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "begonnen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "beginnen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "begonnen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "begann"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "begonnen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "beginnen",
+    "answers": {
+      "past": "",
+      "participle": "begonnen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "begann"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "begonnen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "entscheiden",
+    "answers": {
+      "past": "entschied",
+      "participle": "entschieden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "entschied"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "entschieden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "entscheiden",
+    "answers": {
+      "past": "ENTSCHIED.",
+      "participle": "entschieden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "entschied"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "entschieden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "entscheiden",
+    "answers": {
+      "past": "entschiedx",
+      "participle": "entschieden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "entschied"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "entschieden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "entscheiden",
+    "answers": {
+      "past": "zzzz",
+      "participle": "entschieden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "entschied"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "entschieden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "entscheiden",
+    "answers": {
+      "past": "",
+      "participle": "entschieden",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "entschied"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "entschieden"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "empfehlen",
+    "answers": {
+      "past": "empfahl",
+      "participle": "empfohlen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "empfahl"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "empfohlen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "empfehlen",
+    "answers": {
+      "past": "EMPFAHL.",
+      "participle": "empfohlen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "empfahl"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "empfohlen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "empfehlen",
+    "answers": {
+      "past": "empfahlx",
+      "participle": "empfohlen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "empfahl"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "empfohlen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "empfehlen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "empfohlen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "empfahl"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "empfohlen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "empfehlen",
+    "answers": {
+      "past": "",
+      "participle": "empfohlen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "empfahl"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "empfohlen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "erhalten",
+    "answers": {
+      "past": "erhielt",
+      "participle": "erhalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "erhielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "erhalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "erhalten",
+    "answers": {
+      "past": "ERHIELT.",
+      "participle": "erhalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "erhielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "erhalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "erhalten",
+    "answers": {
+      "past": "erhieltx",
+      "participle": "erhalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "erhielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "erhalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "erhalten",
+    "answers": {
+      "past": "zzzz",
+      "participle": "erhalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "erhielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "erhalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "erhalten",
+    "answers": {
+      "past": "",
+      "participle": "erhalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "erhielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "erhalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "gelingen",
+    "answers": {
+      "past": "gelang",
+      "participle": "gelungen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "gelingen",
+    "answers": {
+      "past": "GELANG.",
+      "participle": "gelungen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "gelingen",
+    "answers": {
+      "past": "gelangx",
+      "participle": "gelungen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "gelang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "gelingen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gelungen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "gelang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "gelingen",
+    "answers": {
+      "past": "",
+      "participle": "gelungen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "gelang"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelungen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "geschehen",
+    "answers": {
+      "past": "geschah",
+      "participle": "geschehen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "geschehen",
+    "answers": {
+      "past": "GESCHAH.",
+      "participle": "geschehen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "geschehen",
+    "answers": {
+      "past": "geschahx",
+      "participle": "geschehen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "geschah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "geschehen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geschehen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "geschah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "geschehen",
+    "answers": {
+      "past": "",
+      "participle": "geschehen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "geschah"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geschehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bieten",
+    "answers": {
+      "past": "bot",
+      "participle": "geboten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bot"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geboten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bieten",
+    "answers": {
+      "past": "BOT.",
+      "participle": "geboten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bot"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geboten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bieten",
+    "answers": {
+      "past": "botx",
+      "participle": "geboten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "bot"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geboten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "bieten",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geboten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "bot"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geboten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bieten",
+    "answers": {
+      "past": "",
+      "participle": "geboten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "bot"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geboten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bitten",
+    "answers": {
+      "past": "bat",
+      "participle": "gebeten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebeten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bitten",
+    "answers": {
+      "past": "BAT.",
+      "participle": "gebeten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "bat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebeten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "bitten",
+    "answers": {
+      "past": "batx",
+      "participle": "gebeten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "bat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebeten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "bitten",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gebeten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "bat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebeten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "bitten",
+    "answers": {
+      "past": "",
+      "participle": "gebeten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "bat"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebeten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "leihen",
+    "answers": {
+      "past": "lieh",
+      "participle": "geliehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "lieh"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geliehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "leihen",
+    "answers": {
+      "past": "LIEH.",
+      "participle": "geliehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "lieh"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geliehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "leihen",
+    "answers": {
+      "past": "liehx",
+      "participle": "geliehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "lieh"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geliehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "leihen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "geliehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "lieh"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geliehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "leihen",
+    "answers": {
+      "past": "",
+      "participle": "geliehen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "lieh"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "geliehen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "vergleichen",
+    "answers": {
+      "past": "verglich",
+      "participle": "verglichen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verglich"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verglichen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "vergleichen",
+    "answers": {
+      "past": "VERGLICH.",
+      "participle": "verglichen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verglich"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verglichen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "vergleichen",
+    "answers": {
+      "past": "verglichx",
+      "participle": "verglichen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "verglich"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verglichen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "vergleichen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "verglichen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "verglich"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verglichen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "vergleichen",
+    "answers": {
+      "past": "",
+      "participle": "verglichen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "verglich"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "verglichen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "versprechen",
+    "answers": {
+      "past": "versprach",
+      "participle": "versprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "versprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "versprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "versprechen",
+    "answers": {
+      "past": "VERSPRACH.",
+      "participle": "versprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "versprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "versprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "versprechen",
+    "answers": {
+      "past": "versprachx",
+      "participle": "versprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "versprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "versprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "versprechen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "versprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "versprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "versprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "versprechen",
+    "answers": {
+      "past": "",
+      "participle": "versprochen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "versprach"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "versprochen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "ziehen",
+    "answers": {
+      "past": "zog",
+      "participle": "gezogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "zog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gezogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "ziehen",
+    "answers": {
+      "past": "ZOG.",
+      "participle": "gezogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "zog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gezogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "ziehen",
+    "answers": {
+      "past": "zogx",
+      "participle": "gezogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "zog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gezogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "ziehen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gezogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "zog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gezogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "ziehen",
+    "answers": {
+      "past": "",
+      "participle": "gezogen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "zog"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gezogen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "steigen",
+    "answers": {
+      "past": "stieg",
+      "participle": "gestiegen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "stieg"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gestiegen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "steigen",
+    "answers": {
+      "past": "STIEG.",
+      "participle": "gestiegen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "stieg"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gestiegen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "steigen",
+    "answers": {
+      "past": "stiegx",
+      "participle": "gestiegen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "stieg"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gestiegen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "steigen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gestiegen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "stieg"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gestiegen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "steigen",
+    "answers": {
+      "past": "",
+      "participle": "gestiegen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "stieg"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gestiegen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "fallen",
+    "answers": {
+      "past": "fiel",
+      "participle": "gefallen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "fallen",
+    "answers": {
+      "past": "FIEL.",
+      "participle": "gefallen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "fiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "fallen",
+    "answers": {
+      "past": "fielx",
+      "participle": "gefallen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "fiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "fallen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gefallen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "fallen",
+    "answers": {
+      "past": "",
+      "participle": "gefallen",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "fiel"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gefallen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "rennen",
+    "answers": {
+      "past": "rannte",
+      "participle": "gerannt",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "rannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gerannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "rennen",
+    "answers": {
+      "past": "RANNTE.",
+      "participle": "gerannt",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "rannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gerannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "rennen",
+    "answers": {
+      "past": "ranntex",
+      "participle": "gerannt",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "rannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gerannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "rennen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gerannt",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "rannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gerannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "rennen",
+    "answers": {
+      "past": "",
+      "participle": "gerannt",
+      "aux": "sein"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "rannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gerannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "sein"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "nennen",
+    "answers": {
+      "past": "nannte",
+      "participle": "genannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "nannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "nennen",
+    "answers": {
+      "past": "NANNTE.",
+      "participle": "genannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "nannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "nennen",
+    "answers": {
+      "past": "nanntex",
+      "participle": "genannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "nannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "nennen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "genannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "nannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "nennen",
+    "answers": {
+      "past": "",
+      "participle": "genannt",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "nannte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "genannt"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "halten",
+    "answers": {
+      "past": "hielt",
+      "participle": "gehalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "hielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "halten",
+    "answers": {
+      "past": "HIELT.",
+      "participle": "gehalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "hielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "halten",
+    "answers": {
+      "past": "hieltx",
+      "participle": "gehalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "hielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "halten",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gehalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "hielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "halten",
+    "answers": {
+      "past": "",
+      "participle": "gehalten",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "hielt"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gehalten"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "lassen",
+    "answers": {
+      "past": "ließ",
+      "participle": "gelassen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "ließ"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelassen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "lassen",
+    "answers": {
+      "past": "LIESS.",
+      "participle": "gelassen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "ließ"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelassen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "lassen",
+    "answers": {
+      "past": "ließx",
+      "participle": "gelassen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "ließ"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelassen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "lassen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gelassen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "ließ"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelassen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "lassen",
+    "answers": {
+      "past": "",
+      "participle": "gelassen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "ließ"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gelassen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "waschen",
+    "answers": {
+      "past": "wusch",
+      "participle": "gewaschen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "wusch"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewaschen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "waschen",
+    "answers": {
+      "past": "WUSCH.",
+      "participle": "gewaschen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "wusch"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewaschen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "waschen",
+    "answers": {
+      "past": "wuschx",
+      "participle": "gewaschen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "wusch"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewaschen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "waschen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gewaschen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "wusch"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewaschen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "waschen",
+    "answers": {
+      "past": "",
+      "participle": "gewaschen",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "wusch"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gewaschen"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "backen",
+    "answers": {
+      "past": "backte",
+      "participle": "gebacken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "backte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebacken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "backen",
+    "answers": {
+      "past": "buk",
+      "participle": "gebacken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "backte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebacken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "backen",
+    "answers": {
+      "past": "BACKTE.",
+      "participle": "gebacken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "correct",
+        "score": 10,
+        "expected": "backte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebacken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 10,
+      "exact": true,
+      "passed": true
+    }
+  },
+  {
+    "id": "backen",
+    "answers": {
+      "past": "backtex",
+      "participle": "gebacken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "typo",
+        "score": 9,
+        "expected": "backte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebacken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 9.7,
+      "exact": false,
+      "passed": true
+    }
+  },
+  {
+    "id": "backen",
+    "answers": {
+      "past": "zzzz",
+      "participle": "gebacken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "backte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebacken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  },
+  {
+    "id": "backen",
+    "answers": {
+      "past": "",
+      "participle": "gebacken",
+      "aux": "haben"
+    },
+    "result": {
+      "past": {
+        "status": "wrong",
+        "score": 0,
+        "expected": "backte"
+      },
+      "participle": {
+        "status": "correct",
+        "score": 10,
+        "expected": "gebacken"
+      },
+      "aux": {
+        "status": "correct",
+        "score": 10,
+        "expected": "haben"
+      },
+      "score": 6.7,
+      "exact": false,
+      "passed": false
+    }
+  }
+]

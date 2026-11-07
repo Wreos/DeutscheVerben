@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-and-test:
+    name: Swift lint and core tests
+    runs-on: macos-26
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show toolchain
+        run: xcodebuild -version && swift --version
+      - name: Lint Swift
+        run: xcrun swift-format lint --strict --recursive App Packages/VerbTrainerCore/Sources Packages/VerbTrainerCore/Tests UITests scripts/make-icon.swift Packages/VerbTrainerCore/Package.swift
+      - name: Check build scripts
+        run: zsh -n scripts/build.sh && ruby -c scripts/generate-project.rb
+      - name: Test core
+        run: swift test --package-path Packages/VerbTrainerCore --parallel
+
+  build:
+    name: Release build (${{ matrix.platform }})
+    runs-on: macos-26
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [macOS, iOS]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build release
+        env:
+          CONFIGURATION: Release
+        run: ./scripts/build.sh "${{ matrix.platform }}"
+
+  ui-tests:
+    name: macOS UI tests
+    runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test isolated app data
+        run: ./scripts/build.sh macOS test -resultBundlePath Build/UITests.xcresult
+      - name: Upload failure report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: macOS-ui-test-results
+          path: Build/UITests.xcresult
+          retention-days: 7

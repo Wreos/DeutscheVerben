@@ -1,0 +1,25 @@
+.build/
+DerivedData/
+.vendor/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+Verification/TestData/
+
+Build/
+DerivedData-iOS/
+
+Deutsche Verben.app
+
+Verification/*-attachments/
+
+# Local design work, verification reports and generated artifacts
+.impeccable/
+Verification/*
+!Verification/synthetic-progress.json
+*.xcresult/
+.env
+.env.*
+*.p12
+*.mobileprovision
+*.cer

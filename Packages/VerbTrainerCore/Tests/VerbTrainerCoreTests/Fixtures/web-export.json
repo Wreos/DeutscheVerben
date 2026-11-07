@@ -1,0 +1,102 @@
+{
+  "exportedAt": "2026-11-04T10:00:00.000Z",
+  "version": 1,
+  "progress": {
+    "gehen": {
+      "attempts": 1,
+      "passed": 1,
+      "assisted": 0,
+      "lastPassed": true,
+      "lastAt": "2026-11-04T10:00:00.000Z"
+    }
+  },
+  "history": [
+    {
+      "id": "gehen",
+      "answers": {
+        "past": "ging",
+        "participle": "gegangen",
+        "aux": "sein"
+      },
+      "result": {
+        "past": {
+          "status": "correct",
+          "score": 10,
+          "expected": "ging"
+        },
+        "participle": {
+          "status": "correct",
+          "score": 10,
+          "expected": "gegangen"
+        },
+        "aux": {
+          "status": "correct",
+          "score": 10,
+          "expected": "sein"
+        },
+        "score": 10,
+        "exact": true,
+        "passed": true
+      },
+      "assisted": false,
+      "kind": "answer",
+      "at": "2026-11-04T10:00:00.000Z",
+      "sessionId": "web-fixture"
+    }
+  ],
+  "level": "all",
+  "session": {
+    "id": "web-fixture",
+    "queue": [
+      "gehen",
+      "sein"
+    ],
+    "index": 0,
+    "results": [
+      {
+        "id": "gehen",
+        "answers": {
+          "past": "ging",
+          "participle": "gegangen",
+          "aux": "sein"
+        },
+        "result": {
+          "past": {
+            "status": "correct",
+            "score": 10,
+            "expected": "ging"
+          },
+          "participle": {
+            "status": "correct",
+            "score": 10,
+            "expected": "gegangen"
+          },
+          "aux": {
+            "status": "correct",
+            "score": 10,
+            "expected": "sein"
+          },
+          "score": 10,
+          "exact": true,
+          "passed": true
+        },
+        "assisted": false,
+        "kind": "answer",
+        "at": "2026-11-04T10:00:00.000Z",
+        "sessionId": "web-fixture"
+      }
+    ],
+    "draft": {
+      "past": "ging",
+      "participle": "gegangen",
+      "aux": "sein"
+    },
+    "exposed": false,
+    "filter": "all",
+    "level": "all"
+  },
+  "exposures": {
+    "gehen": "2026-11-04"
+  },
+  "paused": []
+}
