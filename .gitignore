@@ -23,3 +23,5 @@ Verification/*
 *.p12
 *.mobileprovision
 *.cer
+*.p8
+*.ipa

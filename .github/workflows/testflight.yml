@@ -1,0 +1,122 @@
+name: Upload iOS to TestFlight
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: testflight-ios
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Check, archive and upload iOS
+    if: github.ref == 'refs/heads/main'
+    runs-on: macos-26
+    timeout-minutes: 35
+    env:
+      APPLE_TEAM_ID: ${{ vars.APPLE_TEAM_ID }}
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+      IOS_DISTRIBUTION_P12_BASE64: ${{ secrets.IOS_DISTRIBUTION_P12_BASE64 }}
+      IOS_DISTRIBUTION_P12_PASSWORD: ${{ secrets.IOS_DISTRIBUTION_P12_PASSWORD }}
+      IOS_PROVISION_PROFILE_BASE64: ${{ secrets.IOS_PROVISION_PROFILE_BASE64 }}
+      # The workflow run increases; reruns increment the second component.
+      BUILD_NUMBER: ${{ github.run_number }}.${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check release credentials
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          required = ('APPLE_TEAM_ID', 'ASC_KEY_ID', 'ASC_ISSUER_ID',
+                      'ASC_PRIVATE_KEY', 'IOS_DISTRIBUTION_P12_BASE64',
+                      'IOS_PROVISION_PROFILE_BASE64')
+          missing = [name for name in required if not os.environ.get(name)]
+          if missing:
+              raise SystemExit('Configure release settings first: ' + ', '.join(missing)
+                               + '. See Documentation/APP_STORE_RELEASE.md.')
+          PY
+
+      - name: Check formatting and test core
+        run: |
+          xcrun swift-format lint --strict --recursive App Packages/VerbTrainerCore/Sources Packages/VerbTrainerCore/Tests UITests
+          swift test --package-path Packages/VerbTrainerCore --parallel
+
+      - name: Install temporary signing credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          credentials_dir="$RUNNER_TEMP/apple-signing"
+          mkdir -p "$credentials_dir"
+          export CREDENTIALS_DIR="$credentials_dir"
+          python3 - <<'PY'
+          import base64
+          import os
+          from pathlib import Path
+          folder = Path(os.environ['CREDENTIALS_DIR'])
+          for setting, filename in (
+              ('IOS_DISTRIBUTION_P12_BASE64', 'distribution.p12'),
+              ('IOS_PROVISION_PROFILE_BASE64', 'profile.mobileprovision'),
+          ):
+              (folder / filename).write_bytes(base64.b64decode(os.environ[setting], validate=True))
+          (folder / 'AuthKey.p8').write_text(os.environ['ASC_PRIVATE_KEY'])
+          PY
+          security cms -D -i "$credentials_dir/profile.mobileprovision" > "$credentials_dir/profile.plist"
+          python3 - <<'PY'
+          import datetime
+          import os
+          import plistlib
+          import shutil
+          from pathlib import Path
+          folder = Path(os.environ['CREDENTIALS_DIR'])
+          with (folder / 'profile.plist').open('rb') as source:
+              profile = plistlib.load(source)
+          entitlements = profile['Entitlements']
+          if os.environ['APPLE_TEAM_ID'] not in profile.get('TeamIdentifier', []):
+              raise SystemExit('Provisioning profile belongs to a different Apple team.')
+          expected = os.environ['APPLE_TEAM_ID'] + '.de.aleksandr.DeutscheVerben'
+          if entitlements.get('application-identifier') != expected:
+              raise SystemExit('Provisioning profile must match de.aleksandr.DeutscheVerben.')
+          if profile['ExpirationDate'] <= datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None):
+              raise SystemExit('Provisioning profile has expired.')
+          if (profile.get('ProvisionedDevices') or profile.get('ProvisionsAllDevices')
+                  or entitlements.get('get-task-allow')):
+              raise SystemExit('Use an App Store Connect distribution profile.')
+          destination = Path.home() / 'Library/Developer/Xcode/UserData/Provisioning Profiles'
+          destination.mkdir(parents=True, exist_ok=True)
+          installed = destination / (profile['UUID'] + '.mobileprovision')
+          shutil.copyfile(folder / 'profile.mobileprovision', installed)
+          # UUID is accepted as a profile specifier and avoids multiline profile names.
+          with open(os.environ['GITHUB_ENV'], 'a') as output:
+              output.write(f"IOS_PROFILE_NAME={profile['UUID']}\n")
+              output.write(f'IOS_INSTALLED_PROFILE={installed}\n')
+              output.write(f'ASC_KEY_PATH={folder / "AuthKey.p8"}\n')
+          PY
+          keychain_password="$(openssl rand -hex 24)"
+          keychain_path="$credentials_dir/release.keychain-db"
+          security create-keychain -p "$keychain_password" "$keychain_path"
+          security set-keychain-settings -lut 21600 "$keychain_path"
+          security unlock-keychain -p "$keychain_password" "$keychain_path"
+          security import "$credentials_dir/distribution.p12" -P "$IOS_DISTRIBUTION_P12_PASSWORD" -A -t cert -f pkcs12 -k "$keychain_path"
+          security set-key-partition-list -S apple-tool:,apple:,codesign: -k "$keychain_password" "$keychain_path"
+          security list-keychains -d user -s "$keychain_path" "$HOME/Library/Keychains/login.keychain-db"
+
+      - name: Archive and upload to App Store Connect
+        run: bash scripts/release-ios.sh
+
+      - name: Remove temporary signing credentials
+        if: always()
+        shell: bash
+        run: |
+          security delete-keychain "$RUNNER_TEMP/apple-signing/release.keychain-db" 2>/dev/null || true
+          if [[ -n "${IOS_INSTALLED_PROFILE:-}" ]]; then
+            rm -f "$IOS_INSTALLED_PROFILE"
+          fi
+          rm -rf "$RUNNER_TEMP/apple-signing"

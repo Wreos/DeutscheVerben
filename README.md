@@ -52,6 +52,8 @@ The app supports v1 exports from the original web trainer. Viewing correct forms
 
 The Xcode project is included. The Ruby gem `xcodeproj` is needed only to regenerate it. The app has no third-party runtime dependencies.
 
+For automated iPhone builds and uploads to TestFlight, see the [App Store release setup](Documentation/APP_STORE_RELEASE.md).
+
 GitHub Actions checks Swift formatting, script syntax, core tests, iOS and macOS release builds, and macOS UI scenarios. Formatting rules live in `.swift-format` and use the `swift-format` tool bundled with Xcode.
 
 Test storage overrides and deterministic queues are available in Debug builds. Test fixtures contain synthetic answers.
